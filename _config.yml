@@ -1,21 +1,21 @@
 locale                   : "en-US"
-title                    : "WowPage"
+title                    : "Geyi Yang"
 title_separator          : "-"
-name                     : "Your Name"
-description              : &description "A clean academic homepage template."
-url                      : ""
+name                     : "Geyi Yang"
+description              : &description "Undergraduate in Computer Engineering at CUHK-Shenzhen. Working on GUI agents, RAG systems, and full-stack AI products."
+url                      : "https://garyyang12345.github.io"
 baseurl                  : ""
-repository               : ""
+repository               : "GaryYang12345/GaryYang12345.github.io"
 
 author:
-  avatar           : "1.png"
-  name             : "Your Name"
+  avatar           : "avatar.jpg"
+  name             : "Geyi Yang"
   pronouns         :
-  bio              : "Student and researcher."
-  location         : "City, Country"
-  employer         : "Institution or Company"
+  bio              : "B.Eng. in Computer Engineering at CUHK-Shenzhen. GUI agents, RAG, and full-stack AI systems."
+  location         : "Shenzhen, China"
+  employer         : "CUHK-Shenzhen"
   uri              :
-  email            : "name@example.com"
+  email            : "123090721@link.cuhk.edu.cn"
 
   arxiv            :
   googlescholar    :
@@ -28,7 +28,7 @@ author:
   bitbucket        :
   codepen          :
   dribbble         :
-  github           :
+  github           : "GaryYang12345"
   kaggle           :
   stackoverflow    :
 

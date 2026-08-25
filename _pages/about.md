@@ -9,7 +9,9 @@ redirect_from:
 ---
 <h1 class="main-heading">Hi there <img src="images/Hi.gif" width="40px"> Welcome to my Homepage!</h1>
 
-Hi! I work on AI, survive on instant noodles, and submit papers 3 minutes before deadlines.
+Hi! I am **Geyi Yang** (Gary), an undergraduate in Computer Engineering at [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en). In Spring 2026, I was an exchange student in Computer Science at [UC Berkeley](https://www.berkeley.edu/).
+
+I work on GUI agents, inference-time optimization, retrieval-augmented generation, and full-stack AI products. I like building closed-loop systems that are simple, measurable, and actually usable.
 
 Feel free to reach out if you are interested in collaboration or potential opportunities.
 
@@ -18,22 +20,17 @@ News
 <div class="news-box">
   <ul class="news-list">
 
-<li><span class="news-date"><em>2026.10</em></span> 🚀🚀 Submitted a paper 3 minutes before the deadline.</li>
-
-<li><span class="news-date"><em>2025.12</em></span> 😅😅 Unexpectedly got fired.</li>
-<li><span class="news-date"><em>2026.09</em></span> 📉📉 My GPU resigned before I did.</li>
-<li><span class="news-date"><em>2026.08</em></span> ☕☕ Survived on coffee for 72 consecutive hours.</li>
-
-<li><span class="news-date"><em>2026.05</em></span> 🎉🎉 I begin my internship at Weijia.</li>
-<li><span class="news-date"><em>2025.12</em></span> 😅😅 Unexpectedly got fired.</li>
-
-<li><span class="news-date"><em>2026.07</em></span> 🎉🎉 Promoted from intern to “experienced intern”.</li>
-<li><span class="news-date"><em>2026.06</em></span> 🤡🤡 Accidentally deleted the production database.</li>
-
-<li><span class="news-date"><em>2026.05</em></span> 🎉🎉 I begin my internship at Haidilao.</li>
-<li><span class="news-date"><em>2025.12</em></span> 😅😅 Unexpectedly got fired.</li>
-
-<li><span class="news-date"><em>2024.10</em></span> 🎉🎉 I began my studies at MIT.</li>
+<li><span class="news-date"><em>2026.08</em></span> Started building <a href="https://github.com/GaryYang12345/Telos">Telos</a>, a goal-driven system for generating ready-to-learn courses.</li>
+<li><span class="news-date"><em>2026.07</em></span> Started research on <a href="https://github.com/GaryYang12345/HarnessGrad">HarnessGrad</a> with <a href="https://daizhongxiang.github.io/index.html">Prof. Zhongxiang Dai</a> at SDS, CUHK-Shenzhen.</li>
+<li><span class="news-date"><em>2026.06</em></span> Completed a Computer Science exchange at UC Berkeley.</li>
+<li><span class="news-date"><em>2026.04</em></span> Built TaskFlow AI, a visual workspace for task orchestration and automation.</li>
+<li><span class="news-date"><em>2026.02</em></span> Named Finalist (F Award, top 1%) in the Mathematical Contest in Modeling (MCM).</li>
+<li><span class="news-date"><em>2026.01</em></span> Open-sourced a <a href="https://huggingface.co/GaryYang123/Meme-Qwen-7B-Instruct">Chinese meme conversational model</a> and an <a href="https://huggingface.co/datasets/GaryYang123/zh-meme-sft-8k">8.6k SFT dataset</a>.</li>
+<li><span class="news-date"><em>2025.09</em></span> Served as Undergraduate Student Teaching Fellow for MAT1001 Calculus I at CUHK-Shenzhen.</li>
+<li><span class="news-date"><em>2025.05</em></span> Led full-stack development of a Voice Turing Test data platform supporting research published at ICLR 2026.</li>
+<li><span class="news-date"><em>2025.03</em></span> Started a research internship at China Academy of Sciences Cloud Computing on Agentic-RAG for smart mining.</li>
+<li><span class="news-date"><em>2024.09</em></span> Named to the Dean's List at CUHK-Shenzhen (three consecutive years).</li>
+<li><span class="news-date"><em>2023.09</em></span> Began B.Eng. in Computer Engineering at CUHK-Shenzhen, and joined AIRS as a research intern.</li>
   </ul>
 </div>
 
@@ -43,32 +40,52 @@ Experience
 <div class="experience-container">
 
   <div class="experience-card">
-      <img src="images/haidilao.png" alt="Haidilao logo" class="experience-logo">
+      <img src="images/harnessgrad.png" alt="HarnessGrad" class="experience-logo">
       <div class="experience-info">
-          <strong>Haidilao</strong><br>
-          <em>2026.05 - Present</em><br>
-          LLM Engineer Intern advised by <a href="https://wd7ang.github.io/"><em>Weidong Tang</em></a><br>
-          <span style="color:#888;">Main contribution: teaching hotpot robots to understand human emotions.</span>
+          <strong>HarnessGrad: Adaptive Harness Optimization for GUI Agents</strong><br>
+          <em>2026.07 - Present</em><br>
+          Research advised by <a href="https://daizhongxiang.github.io/index.html"><em>Prof. Zhongxiang Dai</em></a>, School of Data Science, CUHK-Shenzhen<br>
+          <span style="color:#888;">Inference-time harness optimization for GUI agents: a closed loop of trace analysis, failure clustering, harness updates, and retain-or-rollback. On OSWorld, improved the optimization-set score from 0.267 to 0.454 (+70%).</span>
       </div>
   </div>
 
   <div class="experience-card">
-      <img src="images/weijia.png" alt="Weijia logo" class="experience-logo">
+      <img src="images/berkeley.png" alt="UC Berkeley logo" class="experience-logo">
       <div class="experience-info">
-          <strong>Weijia</strong><br>
-          <em>2026.01 - 2026.03</em><br>
-          Machine Learning Intern advised by <a href="https://selen-suyue.github.io/"><em>Yue Su</em></a><br>
-          <span style="color:#888;">Successfully reduced GPU happiness by 97%.</span>
+          <strong>University of California, Berkeley</strong><br>
+          <em>2026.01 - 2026.06</em><br>
+          Exchange Student in Computer Science<br>
+          <span style="color:#888;">Coursework and research-oriented study in computer science at Berkeley.</span>
       </div>
   </div>
 
   <div class="experience-card">
-      <img src="images/mit.png" alt="MIT logo" class="experience-logo">
+      <img src="images/cas.png" alt="CAS logo" class="experience-logo">
       <div class="experience-info">
-          <strong>Massachusetts Institute of Technology</strong><br>
+          <strong>China Academy of Sciences Cloud Computing</strong><br>
+          <em>2025.03 - 2025.06</em><br>
+          Research Intern — Agentic-RAG Question-Answering for Smart Mining<br>
+          <span style="color:#888;">Built an Agentic-RAG system with LangGraph, Qdrant, and FastAPI. Parent-child hybrid retrieval reached Recall@5 of 81% and answer accuracy of 78% on 300+ QA samples.</span>
+      </div>
+  </div>
+
+  <div class="experience-card">
+      <img src="images/airs.png" alt="AIRS logo" class="experience-logo">
+      <div class="experience-info">
+          <strong>Shenzhen Institute of Artificial Intelligence and Robotics for Society (AIRS)</strong><br>
+          <em>2023.09 - 2024.06</em><br>
+          Research Intern — Digital Human Synthesis from Image and Speech<br>
+          <span style="color:#888;">Built a multimodal pipeline for voice cloning and image-driven talking-head synthesis, and piloted a “Digital Relative” prototype with 500+ family-user interactions.</span>
+      </div>
+  </div>
+
+  <div class="experience-card">
+      <img src="images/cuhksz.png" alt="CUHK-Shenzhen logo" class="experience-logo">
+      <div class="experience-info">
+          <strong>The Chinese University of Hong Kong, Shenzhen</strong><br>
           <em>2023.09 - Present</em><br>
-          Rank 5/99, B.E at <a href="https://ste.xidian.edu.cn/"><em>School of Telecommunication Engineering</em></a><br>
-          <span style="color:#888;">Research interests include large models, multimodal learning, and surviving deadlines.</span>
+          B.Eng. in Computer Engineering, GPA 3.73/4.00<br>
+          <span style="color:#888;">Selected coursework: Artificial Intelligence (A), Machine Learning (A), Optimization (A), Data Structures (A-), Operating Systems (A-), Internet Architecture and Protocol (A-).</span>
       </div>
   </div>
 </div>
@@ -275,7 +292,80 @@ Projects
 <div class="project-card" data-category="project"> 
   <div style="display: flex; align-items: center;">
     <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
-      <img src="images/2.png" alt="ManiUniCon" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+      <img src="images/telos.png" alt="Telos" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+    </div>
+    <div> 
+      <strong>Telos: AI-Generated, Ready-to-Learn Courses</strong><br>
+      <i style="font-size: 13px;">
+        Independent Full-Stack Developer · 2026.08 – Present
+      </i><br>
+      A goal-driven course-generation system that turns fragmented materials and online resources into structured, multimodal, ready-to-learn courses, with a workspace for text, images, videos, tutoring, and retrieval.
+      <br> 
+      <b><i style="color:#83a1c7;">Project &nbsp;</i></b> 
+      <a href="https://github.com/GaryYang12345/Telos"><em>[code]</em></a> 
+    </div>
+  </div> 
+</div>
+
+<div class="project-card" data-category="project"> 
+  <div style="display: flex; align-items: center;">
+    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <img src="images/taskflow.png" alt="TaskFlow AI" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+    </div>
+    <div> 
+      <strong>TaskFlow AI: Visual Task Orchestration and Automation</strong><br>
+      <i style="font-size: 13px;">
+        Independent Full-Stack Developer · 2026.04
+      </i><br>
+      A dual-level node-flow workspace for tasks, dependencies, statuses, and serial/parallel/merge sub-workflows. Integrates OpenClaw and Lark to extract tasks from email, request confirmation, and sync reports, tables, and calendars.
+      <br> 
+      <b><i style="color:#83a1c7;">Project &nbsp;</i></b> 
+      <a href=""><em>[code]</em></a> 
+    </div>
+  </div> 
+</div>
+
+<div class="project-card" data-category="project"> 
+  <div style="display: flex; align-items: center;">
+    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <img src="images/voice-turing.png" alt="Voice Turing Test" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+    </div>
+    <div> 
+      <strong>Voice Turing Test Data Collection Platform</strong><br>
+      <i style="font-size: 13px;">
+        Full-Stack Development Lead · 2025.05 – 2025.08
+      </i><br>
+      Led full-stack development of a WeChat Mini Program supporting research published at ICLR 2026, with bilingual UI, real-time scoring, audio preloading, and Tencent Cloud services. Reached 1,000+ users, 300+ DAU, and 5,000+ valid records in the first month.
+      <br> 
+      <b><i style="color:#83a1c7;">Project &nbsp;</i></b> 
+      <a href=""><em>[code]</em></a> 
+    </div>
+  </div> 
+</div>
+
+<div class="project-card" data-category="project"> 
+  <div style="display: flex; align-items: center;">
+    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <img src="images/meme-lm.png" alt="Chinese meme language model" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+    </div>
+    <div> 
+      <strong>Chinese Internet Meme Conversational Language Model</strong><br>
+      <i style="font-size: 13px;">
+        Dataset Construction, Fine-Tuning, and Preference Alignment · 2026.01
+      </i><br>
+      Independently built the full data-to-model pipeline: 30,000+ post-comment pairs, an 8,680-example ChatML SFT dataset, and Qwen2.5-7B LoRA + DPO on a single A100. Meme-use accuracy improved by 32%.
+      <br> 
+      <b><i style="color:#83a1c7;">Project &nbsp;</i></b> 
+      <a href="https://huggingface.co/GaryYang123/Meme-Qwen-7B-Instruct"><em>[model]</em></a>
+      <a href="https://huggingface.co/datasets/GaryYang123/zh-meme-sft-8k"><em>[dataset]</em></a>
+    </div>
+  </div> 
+</div>
+
+<div class="project-card" data-category="project"> 
+  <div style="display: flex; align-items: center;">
+    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <img src="images/2.png" alt="WowPage" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
     </div>
     <div> 
       <strong>WowPage</strong><br>
@@ -286,7 +376,7 @@ Projects
       In collaboration with Yue Su, I refined and improved his original homepage template. A clean standalone template version is coming soon.
       <br> 
       <b><i style="color:#83a1c7;">Project &nbsp;</i></b> 
-      <a href=""><em>[code]</em></a> 
+      <a href="https://github.com/WD7ang/WowPage"><em>[code]</em></a> 
     </div>
   </div> 
 </div>
@@ -294,16 +384,15 @@ Projects
 
 Awards
 --------
-- *3026.01*, Successfully survived 17 consecutive paper deadlines without touching grass.
-- *3025.09*, Best Excuse Generation Award, SleepFormer Research Group.
-- *3025.06*, Outstanding Contributor to Instant Noodle Consumption Efficiency.
-- *3024.12*, GPU Emotional Damage Scholarship (Full Funding).
-- *3024.08*, Ranked Top 0.1% Worldwide in “I’ll Fix It Tomorrow”.
+- *2026.02*, Mathematical Contest in Modeling (MCM), Finalist (F Award; top 1%).
+- *2024.09*, Dean's List, CUHK-Shenzhen (three consecutive years).
+- *2023–2024*, Academic Performance Scholarship Awardee, CUHK-Shenzhen.
 
 
 
 Services
 --------
+- *2025.09 – 2025.12*, Undergraduate Student Teaching Fellow (USTF), MAT1001 Calculus I, CUHK-Shenzhen.
 - *3026.06 – Present*, Chief Coffee Consumption Officer, Midnight Research Lab.
 - *3026.01 – Present*, Full-time Debugger of Problems Created by Myself.
 - Reviewer for Journal of Unfinished Projects.

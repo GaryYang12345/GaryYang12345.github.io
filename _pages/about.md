@@ -27,7 +27,7 @@ redirect_from:
       </div>
     </article>
     <article class="education-row">
-      <img src="images/berkeley.svg" alt="UC Berkeley emblem" class="institution-logo institution-logo--berkeley">
+      <img src="images/berkeley.png" alt="UC Berkeley emblem" class="institution-logo institution-logo--berkeley">
       <div class="education-row__copy">
         <h3>University of California, Berkeley</h3>
         <p>GLOBE Program Visiting Student in Computer Science</p>
@@ -112,7 +112,7 @@ redirect_from:
         <h3>Dynamic Hybrid Lunar Logistics Optimization</h3>
         <p>Developed an Earth-to-Moon logistics model integrating space elevators, reusable rockets, and ISRU maturation. Used Differential Evolution (1,301 evaluations), 5,000-run Monte Carlo robustness analysis, and sensitivity analysis to derive a three-phase transition strategy.</p>
         <div class="project-facts" aria-label="MCM project results">
-          <span>F Award · top 1%</span><span>$12T saved vs. rockets</span><span>88.3% less CO₂</span>
+          <span>F Award · top 1%</span><span>USD 12T saved vs. rockets</span><span>88.3% less CO₂</span>
         </div>
       </div>
     </article>

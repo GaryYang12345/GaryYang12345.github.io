@@ -7,14 +7,67 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<h1 class="main-heading">Hi there <img src="images/Hi.gif" width="40px"> Welcome to my Homepage!</h1>
 
-Hi! I am **Geyi Yang** (Gary), an undergraduate in Computer Engineering at [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en). In Spring 2026, I was an exchange student in Computer Science at [UC Berkeley](https://www.berkeley.edu/).
+I am **Geyi Yang** (Gary), an undergraduate in Computer Engineering at [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en). In Spring 2026, I was an exchange student in Computer Science at [UC Berkeley](https://www.berkeley.edu/).
 
 I work on GUI agents, inference-time optimization, retrieval-augmented generation, and full-stack AI products. I like building closed-loop systems that are simple, measurable, and actually usable.
 
 Feel free to reach out if you are interested in collaboration or potential opportunities.
 
+<h2 id="education" class="section-heading">Education</h2>
+
+<div class="edu-list">
+  <div class="edu-item">
+    <img src="images/cuhksz.png" alt="CUHK-Shenzhen logo" class="profile-logo">
+    <div class="profile-text">
+      <div class="profile-org">The Chinese University of Hong Kong, Shenzhen</div>
+      <div class="profile-role">B.Eng. in Computer Engineering · GPA 3.73/4.00</div>
+      <div class="profile-date">Sep. 2023 – Present</div>
+    </div>
+  </div>
+
+  <div class="edu-item">
+    <img src="images/berkeley.png" alt="UC Berkeley logo" class="profile-logo">
+    <div class="profile-text">
+      <div class="profile-org">University of California, Berkeley</div>
+      <div class="profile-role">Exchange Student in Computer Science</div>
+      <div class="profile-date">Jan. 2026 – Jun. 2026</div>
+    </div>
+  </div>
+</div>
+
+<h2 id="experience" class="section-heading">Experience</h2>
+
+<div class="timeline">
+  <div class="timeline-item">
+    <img src="images/cuhksz.png" alt="CUHK-Shenzhen logo" class="profile-logo">
+    <div class="profile-text">
+      <div class="profile-org">The Chinese University of Hong Kong, Shenzhen</div>
+      <div class="profile-role">Undergraduate Research Assistant, advised by <a href="https://daizhongxiang.github.io/index.html">Prof. Zhongxiang Dai</a></div>
+      <div class="profile-date">Jul. 2026 – Present</div>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <img src="images/zhongke.jpg" alt="Dongguan Zhongke Institute of Cloud Computing logo" class="profile-logo">
+    <div class="profile-text">
+      <div class="profile-org">Dongguan Zhongke Institute of Cloud Computing</div>
+      <div class="profile-role">Research Intern</div>
+      <div class="profile-date">Mar. 2025 – Jun. 2025</div>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <img src="images/airs.png" alt="AIRS logo" class="profile-logo">
+    <div class="profile-text">
+      <div class="profile-org">Shenzhen Institute of Artificial Intelligence and Robotics for Society (AIRS)</div>
+      <div class="profile-role">Research Intern</div>
+      <div class="profile-date">Sep. 2023 – Jun. 2024</div>
+    </div>
+  </div>
+</div>
+
+{% comment %}
 News
 ---------------
 <div class="news-box">
@@ -33,64 +86,9 @@ News
 <li><span class="news-date"><em>2023.09</em></span> Began B.Eng. in Computer Engineering at CUHK-Shenzhen, and joined AIRS as a research intern.</li>
   </ul>
 </div>
+{% endcomment %}
 
-Experience
---------------
-
-<div class="experience-container">
-
-  <div class="experience-card">
-      <img src="images/harnessgrad.png" alt="HarnessGrad" class="experience-logo">
-      <div class="experience-info">
-          <strong>HarnessGrad: Adaptive Harness Optimization for GUI Agents</strong><br>
-          <em>2026.07 - Present</em><br>
-          Research advised by <a href="https://daizhongxiang.github.io/index.html"><em>Prof. Zhongxiang Dai</em></a>, School of Data Science, CUHK-Shenzhen<br>
-          <span style="color:#888;">Inference-time harness optimization for GUI agents: a closed loop of trace analysis, failure clustering, harness updates, and retain-or-rollback. On OSWorld, improved the optimization-set score from 0.267 to 0.454 (+70%).</span>
-      </div>
-  </div>
-
-  <div class="experience-card">
-      <img src="images/berkeley.png" alt="UC Berkeley logo" class="experience-logo">
-      <div class="experience-info">
-          <strong>University of California, Berkeley</strong><br>
-          <em>2026.01 - 2026.06</em><br>
-          Exchange Student in Computer Science<br>
-          <span style="color:#888;">Coursework and research-oriented study in computer science at Berkeley.</span>
-      </div>
-  </div>
-
-  <div class="experience-card">
-      <img src="images/cas.png" alt="CAS logo" class="experience-logo">
-      <div class="experience-info">
-          <strong>China Academy of Sciences Cloud Computing</strong><br>
-          <em>2025.03 - 2025.06</em><br>
-          Research Intern — Agentic-RAG Question-Answering for Smart Mining<br>
-          <span style="color:#888;">Built an Agentic-RAG system with LangGraph, Qdrant, and FastAPI. Parent-child hybrid retrieval reached Recall@5 of 81% and answer accuracy of 78% on 300+ QA samples.</span>
-      </div>
-  </div>
-
-  <div class="experience-card">
-      <img src="images/airs.png" alt="AIRS logo" class="experience-logo">
-      <div class="experience-info">
-          <strong>Shenzhen Institute of Artificial Intelligence and Robotics for Society (AIRS)</strong><br>
-          <em>2023.09 - 2024.06</em><br>
-          Research Intern — Digital Human Synthesis from Image and Speech<br>
-          <span style="color:#888;">Built a multimodal pipeline for voice cloning and image-driven talking-head synthesis, and piloted a “Digital Relative” prototype with 500+ family-user interactions.</span>
-      </div>
-  </div>
-
-  <div class="experience-card">
-      <img src="images/cuhksz.png" alt="CUHK-Shenzhen logo" class="experience-logo">
-      <div class="experience-info">
-          <strong>The Chinese University of Hong Kong, Shenzhen</strong><br>
-          <em>2023.09 - Present</em><br>
-          B.Eng. in Computer Engineering, GPA 3.73/4.00<br>
-          <span style="color:#888;">Selected coursework: Artificial Intelligence (A), Machine Learning (A), Optimization (A), Data Structures (A-), Operating Systems (A-), Internet Architecture and Protocol (A-).</span>
-      </div>
-  </div>
-</div>
-
-
+{% comment %}
 Publications
 --------------
 <button class="pub-button active" onclick="filterPublications(event, 'all')">Core Publications</button>
@@ -99,312 +97,113 @@ Publications
 (* equal contribution · &dagger; corresponding author · &Dagger; project leader)
 
 <div id="core-publications" class="publication-view" data-publication-view="core">
-<div class="publication-card" data-category="all"> 
+</div>
+{% endcomment %}
+
+<h2 id="research" class="section-heading">Research Projects</h2>
+
+<div class="project-card" data-category="project">
   <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;"> 
-      <img src="images/sleep.png" alt="wog" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
-    </div> 
-    <div>
-      <strong>SleepFormer: Towards Fully Autonomous Deadline Extension via Large Language Models</strong><br>
-      <i style="font-size: 13px;">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.
-      </i><br> 
-      We present SleepFormer, the first framework capable of automatically generating convincing excuses for missed deadlines, skipped meetings, and unfinished experiments.
-      <br> 
-      <b><i style="color:#83a1c7;">ACL 3026 Oral &nbsp;
-      </i></b> 
-      <a href=""><em>[arXiv]</em></a> 
-      <a href=""><em>[code]</em></a> 
+    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <img src="images/harnessgrad.png" alt="HarnessGrad" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
     </div>
-  </div> 
+    <div>
+      <strong>HarnessGrad: Adaptive Harness Optimization for GUI Agents</strong><br>
+      <i style="font-size: 13px;">
+        Undergraduate Research Assistant · advised by <a href="https://daizhongxiang.github.io/index.html">Prof. Zhongxiang Dai</a> · Jul. 2026 – Present
+      </i><br>
+      Inference-time harness optimization for GUI agents, targeting accuracy-cost-latency trade-offs without changing the underlying models. Built a closed loop of trace analysis, failure clustering, harness attribution, paired retesting, and retain-or-rollback. On OSWorld, improved the optimization-set score from 0.267 to 0.454 (+70%).
+      <br>
+      <b><i class="project-tag">Research &nbsp;</i></b>
+      <a href="https://github.com/GaryYang12345/HarnessGrad"><em>[code]</em></a>
+    </div>
+  </div>
 </div>
 
-
-<div class="publication-card" data-category="all"> 
+<div class="project-card" data-category="project">
   <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;"> 
-      <img src="images/gpu.png" alt="wog" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
-    </div> 
-    <div>
-      <strong>Are GPUs Emotionally Stable? A Large-Scale Empirical Study Under 24/7 Training Stress</strong><br>
-      <i style="font-size: 13px;">
-        NVIDIA RTX 9090*,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su*</strong>
-        </a>,
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang&dagger;</strong>
-        </a>.
-      </i><br> 
-      We conduct the first psychological evaluation of modern GPUs under extreme training conditions. Results reveal that 87% of devices exhibit symptoms of burnout after repeated “just one more epoch” requests.
-      <br> 
-      <b><i style="color:#83a1c7;">ICLR 3026 &nbsp;
-      </i></b> 
-      <a href=""><em>[arXiv]</em></a> 
-      <a href=""><em>[code]</em></a> 
+    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <img src="images/meme-lm.png" alt="Meme-Qwen-7B-Instruct" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
     </div>
-  </div> 
-</div>
-
-<div class="publication-card" data-category="all"> 
-  <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;"> 
-      <img src="images/noodle.png" alt="wog" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
-    </div> 
     <div>
-      <strong>Instant Noodles as a Scalable Training Infrastructure for Graduate Students</strong><br>
+      <strong>Meme-Qwen-7B-Instruct</strong><br>
       <i style="font-size: 13px;">
-        Noodles&Dagger;,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su*</strong>
-        </a>,
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang&dagger;</strong>
-        </a>.
-      </i><br> 
-      We introduce Noodle-Scaling Law, showing that research productivity increases logarithmically with instant noodle consumption before collapsing catastrophically at 3 a.m.
-      <br> 
-      <b><i style="color:#83a1c7;">ICML 3026 &nbsp;
-      </i></b> 
-      <a href=""><em>[arXiv]</em></a> 
-      <a href=""><em>[code]</em></a> 
+        Dataset Construction, Fine-Tuning, and Preference Alignment · Jan. 2026
+      </i><br>
+      Independently built the full data-to-model pipeline: collected 30,000+ post-comment pairs, released an 8,680-example Chinese meme SFT dataset in ChatML format, and fine-tuned Qwen2.5-7B with LoRA and DPO on a single A100. Meme-use accuracy improved by 32%.
+      <br>
+      <b><i class="project-tag">Research &nbsp;</i></b>
+      <a href="https://huggingface.co/GaryYang123/Meme-Qwen-7B-Instruct"><em>[model]</em></a>
+      <a href="https://huggingface.co/datasets/GaryYang123/zh-meme-sft-8k"><em>[dataset]</em></a>
     </div>
-  </div> 
+  </div>
 </div>
 
-</div>
+<h2 id="development" class="section-heading">Development Projects</h2>
 
-
-<div id="full-publications" class="publication-view" data-publication-view="list" hidden>
-  <ul class="full-publication-list">
-    <li>
-      <span class="pub-list-badge">ACL 3030</span>
-      <span class="pub-list-title">SleepFormer v5: Towards Fully Autonomous Deadline Extension via Large Language Models</span><br>
-      <span class="pub-list-authors">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-note">Oral.</span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">ACL 3029</span>
-      <span class="pub-list-title">SleepFormer v4: Towards Fully Autonomous Deadline Extension via Large Language Models</span><br>
-      <span class="pub-list-authors">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-note">Oral.</span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">ACL 3028</span>
-      <span class="pub-list-title">SleepFormer v3: Towards Fully Autonomous Deadline Extension via Large Language Models</span><br>
-      <span class="pub-list-authors">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-note">Oral.</span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">ACL 3027</span>
-      <span class="pub-list-title">SleepFormer v2: Towards Fully Autonomous Deadline Extension via Large Language Models</span><br>
-      <span class="pub-list-authors">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-note">Oral.</span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">ACL 3026</span>
-      <span class="pub-list-title">SleepFormer: Towards Fully Autonomous Deadline Extension via Large Language Models</span><br>
-      <span class="pub-list-authors">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-note">Oral.</span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">ICLR 3026</span>
-      <span class="pub-list-title">Are GPUs Emotionally Stable? A Large-Scale Empirical Study Under 24/7 Training Stress</span><br>
-      <span class="pub-list-authors">
-        NVIDIA RTX 9090*,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su*</strong>
-        </a>,
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">ICLR 3026</span>
-      <span class="pub-list-title">Instant Noodles as a Scalable Training Infrastructure for Graduate Students</span><br>
-      <span class="pub-list-authors">
-        Noodles&Dagger;,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su*</strong>
-        </a>,
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-  </ul>
-</div>
-
-<script src="assets/js/show_publications.js"></script>
-<script src="assets/js/pub_media_rotator.js"></script>
-
-
-Projects
---------
-<div class="project-card" data-category="project"> 
+<div class="project-card" data-category="project">
   <div style="display: flex; align-items: center;">
     <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
       <img src="images/telos.png" alt="Telos" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
     </div>
-    <div> 
+    <div>
       <strong>Telos: AI-Generated, Ready-to-Learn Courses</strong><br>
       <i style="font-size: 13px;">
-        Independent Full-Stack Developer · 2026.08 – Present
+        Independent Full-Stack Developer · Aug. 2026 – Present
       </i><br>
       A goal-driven course-generation system that turns fragmented materials and online resources into structured, multimodal, ready-to-learn courses, with a workspace for text, images, videos, tutoring, and retrieval.
-      <br> 
-      <b><i style="color:#83a1c7;">Project &nbsp;</i></b> 
-      <a href="https://github.com/GaryYang12345/Telos"><em>[code]</em></a> 
+      <br>
+      <b><i class="project-tag">Project &nbsp;</i></b>
+      <a href="https://github.com/GaryYang12345/Telos"><em>[code]</em></a>
     </div>
-  </div> 
+  </div>
 </div>
 
-<div class="project-card" data-category="project"> 
+<div class="project-card" data-category="project">
   <div style="display: flex; align-items: center;">
     <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
       <img src="images/taskflow.png" alt="TaskFlow AI" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
     </div>
-    <div> 
+    <div>
       <strong>TaskFlow AI: Visual Task Orchestration and Automation</strong><br>
       <i style="font-size: 13px;">
-        Independent Full-Stack Developer · 2026.04
+        Independent Full-Stack Developer · Apr. 2026
       </i><br>
       A dual-level node-flow workspace for tasks, dependencies, statuses, and serial/parallel/merge sub-workflows. Integrates OpenClaw and Lark to extract tasks from email, request confirmation, and sync reports, tables, and calendars.
-      <br> 
-      <b><i style="color:#83a1c7;">Project &nbsp;</i></b> 
-      <a href=""><em>[code]</em></a> 
+      <br>
+      <b><i class="project-tag">Project &nbsp;</i></b>
     </div>
-  </div> 
+  </div>
 </div>
 
-<div class="project-card" data-category="project"> 
+<div class="project-card" data-category="project">
   <div style="display: flex; align-items: center;">
     <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
       <img src="images/voice-turing.png" alt="Voice Turing Test" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
     </div>
-    <div> 
+    <div>
       <strong>Voice Turing Test Data Collection Platform</strong><br>
       <i style="font-size: 13px;">
-        Full-Stack Development Lead · 2025.05 – 2025.08
+        Full-Stack Development Lead · May 2025 – Aug. 2025
       </i><br>
       Led full-stack development of a WeChat Mini Program supporting research published at ICLR 2026, with bilingual UI, real-time scoring, audio preloading, and Tencent Cloud services. Reached 1,000+ users, 300+ DAU, and 5,000+ valid records in the first month.
-      <br> 
-      <b><i style="color:#83a1c7;">Project &nbsp;</i></b> 
-      <a href=""><em>[code]</em></a> 
+      <br>
+      <b><i class="project-tag">Project &nbsp;</i></b>
     </div>
-  </div> 
+  </div>
 </div>
 
-<div class="project-card" data-category="project"> 
-  <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
-      <img src="images/meme-lm.png" alt="Chinese meme language model" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
-    </div>
-    <div> 
-      <strong>Chinese Internet Meme Conversational Language Model</strong><br>
-      <i style="font-size: 13px;">
-        Dataset Construction, Fine-Tuning, and Preference Alignment · 2026.01
-      </i><br>
-      Independently built the full data-to-model pipeline: 30,000+ post-comment pairs, an 8,680-example ChatML SFT dataset, and Qwen2.5-7B LoRA + DPO on a single A100. Meme-use accuracy improved by 32%.
-      <br> 
-      <b><i style="color:#83a1c7;">Project &nbsp;</i></b> 
-      <a href="https://huggingface.co/GaryYang123/Meme-Qwen-7B-Instruct"><em>[model]</em></a>
-      <a href="https://huggingface.co/datasets/GaryYang123/zh-meme-sft-8k"><em>[dataset]</em></a>
-    </div>
-  </div> 
-</div>
+<h2 id="awards" class="section-heading">Awards</h2>
 
-<div class="project-card" data-category="project"> 
-  <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
-      <img src="images/2.png" alt="WowPage" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
-    </div>
-    <div> 
-      <strong>WowPage</strong><br>
-      <i style="font-size: 13px;">
-        <a href="https://wd7ang.github.io" target="_blank"><strong>Weidong Tang</strong></a>,
-        <a href="https://selen-suyue.github.io/" target="_blank"><strong>Yue Su</strong></a>.
-      </i><br>
-      In collaboration with Yue Su, I refined and improved his original homepage template. A clean standalone template version is coming soon.
-      <br> 
-      <b><i style="color:#83a1c7;">Project &nbsp;</i></b> 
-      <a href="https://github.com/WD7ang/WowPage"><em>[code]</em></a> 
-    </div>
-  </div> 
-</div>
-
-
-Awards
---------
 - *2026.02*, Mathematical Contest in Modeling (MCM), Finalist (F Award; top 1%).
 - *2024.09*, Dean's List, CUHK-Shenzhen (three consecutive years).
 - *2023–2024*, Academic Performance Scholarship Awardee, CUHK-Shenzhen.
 
+<h2 id="services" class="section-heading">Services</h2>
 
-
-Services
---------
 - *2025.09 – 2025.12*, Undergraduate Student Teaching Fellow (USTF), MAT1001 Calculus I, CUHK-Shenzhen.
-- *3026.06 – Present*, Chief Coffee Consumption Officer, Midnight Research Lab.
-- *3026.01 – Present*, Full-time Debugger of Problems Created by Myself.
-- Reviewer for Journal of Unfinished Projects.
-- Area Chair for Conference on Last-Minute Submissions (CLMS).
-- Volunteer Therapist for Burned-out GPUs.
 
-
-
+{% comment %}
 Talks
 --------
-- *3026.07*, “How to Finish a Paper 3 Minutes Before Deadline.”
-- *3026.05*, “Large Language Models and Large Amounts of Caffeine.”
-- *3025.11*, “On the Emotional Stability of GPUs Under Extreme Stress.”
-- *3025.08*, “Instant Noodles as Scalable Research Infrastructure.”
-- *3025.03*, “Sleep is Temporary, Camera-Ready is Forever.”
+{% endcomment %}

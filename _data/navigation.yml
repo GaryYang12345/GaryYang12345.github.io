@@ -1,26 +1,32 @@
 # main links links
 
 main:
-  - title: "News"
-    url: "/#news"
+  - title: "Education"
+    url: "/#education"
 
   - title: "Experience"
     url: "/#experience"
 
-  - title: "Pub"
-    url: "/#publications"
+  # - title: "News"
+  #   url: "/#news"
 
-  - title: "Project"
-    url: "/#projects"
+  # - title: "Pub"
+  #   url: "/#publications"
+
+  - title: "Research"
+    url: "/#research"
+
+  - title: "Projects"
+    url: "/#development"
 
   - title: "Awards"
     url: "/#awards"
 
   - title: "Services"
     url: "/#services"
-    
-  - title: "Talks"
-    url: "/#talks"
+
+  # - title: "Talks"
+  #   url: "/#talks"
     
   - title: "CV-En"
     url: "/files/GeyiYang_CV.pdf"

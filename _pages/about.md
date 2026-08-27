@@ -9,9 +9,11 @@ redirect_from:
 ---
 
 <header class="intro">
-  <p class="intro__eyebrow">Computer Engineering · CUHK-Shenzhen</p>
-  <p>I am <strong>Geyi Yang</strong> (Gary), an undergraduate researcher and builder working on GUI agents, inference-time optimization, retrieval-augmented generation, and full-stack AI products.</p>
-  <p>In Spring 2026, I was an exchange student in Computer Science at <a href="https://www.berkeley.edu/">UC Berkeley</a>. I am interested in building closed-loop systems that are simple, measurable, and useful.</p>
+  <p>Hi, my name is <strong>Geyi Yang</strong> (杨戈易). I am an undergraduate student in Computer Engineering at <a href="https://www.cuhk.edu.cn/en">The Chinese University of Hong Kong, Shenzhen</a> (CUHK-Shenzhen). In Spring 2026, I was a GLOBE Program visiting student in Computer Science at <a href="https://www.berkeley.edu/">UC Berkeley</a>.</p>
+  <p>My research interests focus on <strong>Agents and LLMs</strong>, especially <strong>self-improving agent systems</strong>: agents that inspect their own traces, diagnose failure modes, and revise their harness, tools, or policies without retraining the underlying model. My current work on HarnessGrad, inference-time optimization of GUI-agent harnesses, is one instance of this self-evolution loop. I also work on retrieval-augmented generation and full-stack AI products.</p>
+  <p class="intro__actions">
+    <a class="cv-download" href="{{ '/files/GeyiYang_CV.pdf' | relative_url }}">Download CV</a>
+  </p>
 </header>
 
 <section id="education" class="resume-section">
@@ -27,7 +29,7 @@ redirect_from:
       </div>
     </article>
     <article class="education-row">
-      <img src="images/berkeley.png" alt="UC Berkeley emblem" class="institution-logo institution-logo--berkeley">
+      <img src="images/berkeley.svg" alt="UC Berkeley emblem" class="institution-logo institution-logo--berkeley">
       <div class="education-row__copy">
         <h3>University of California, Berkeley</h3>
         <p>GLOBE Program Visiting Student in Computer Science</p>
@@ -50,7 +52,7 @@ redirect_from:
       </div>
     </article>
     <article class="experience-row">
-      <img src="images/zhongke.jpg" alt="Dongguan Zhongke Institute of Cloud Computing emblem" class="institution-logo institution-logo--round">
+      <img src="images/zhongke.png" alt="Dongguan Zhongke Institute of Cloud Computing emblem" class="institution-logo institution-logo--round">
       <div class="experience-row__copy">
         <h3>China Academy of Sciences Cloud Computing</h3>
         <p>Research Intern · Agentic-RAG Question-Answering for Smart Mining</p>
@@ -72,12 +74,14 @@ redirect_from:
   <div class="section-kicker">Modeling, systems, and machine learning</div>
   <h2>Research Projects</h2>
   <div class="project-list">
-    <article class="project-entry project-entry--harness">
-      <div class="project-art project-art--harness" aria-hidden="true"><span>HG</span></div>
+    <article class="project-entry">
+      <a class="project-art" href="https://github.com/GaryYang12345/HarnessGrad">
+        <img src="images/harnessgrad.png" alt="HarnessGrad preview">
+      </a>
       <div class="project-entry__body">
-        <div class="project-entry__meta">GUI agents · Jul. 2026 – Present</div>
+        <div class="project-entry__meta">Self-improving agents · Jul. 2026 – Present</div>
         <h3>HarnessGrad: Adaptive Harness Optimization for GUI Agents</h3>
-        <p>Built an inference-time optimization loop for GUI-agent harnesses, combining trace analysis, failure clustering, harness attribution, paired retesting, and retain-or-rollback decisions. On OSWorld, improved the optimization-set score from 0.267 to 0.454 (+70%).</p>
+        <p>Built a recursive self-improving loop for GUI-agent harnesses: collect traces, cluster failures, attribute them to editable harness components, and retain or roll back updates. This is a self-evolution system at the harness level, without changing the underlying models. On OSWorld, improved the optimization-set score from 0.267 to 0.454 (+70%).</p>
         <div class="project-actions">
           <a class="brand-link" href="https://github.com/GaryYang12345/HarnessGrad" aria-label="Open HarnessGrad on GitHub">
             <i class="fab fa-github" aria-hidden="true"></i>GitHub
@@ -86,8 +90,10 @@ redirect_from:
       </div>
     </article>
 
-    <article class="project-entry project-entry--meme">
-      <div class="project-art project-art--meme" aria-hidden="true"><span>Q7B</span></div>
+    <article class="project-entry">
+      <a class="project-art" href="https://huggingface.co/GaryYang123/Meme-Qwen-7B-Instruct">
+        <img src="images/meme-lm.png" alt="Meme Language Model preview">
+      </a>
       <div class="project-entry__body">
         <div class="project-entry__meta">Language modeling · Jan. 2026</div>
         <h3>Meme-Qwen-7B-Instruct</h3>
@@ -103,16 +109,20 @@ redirect_from:
       </div>
     </article>
 
-    <article class="project-entry project-entry--mcm">
-      <div class="project-art project-art--mcm" aria-hidden="true">
-        <svg viewBox="0 0 160 160" role="presentation"><circle cx="80" cy="80" r="42"></circle><path d="M28 100c23-25 81-56 108-39M37 53c31 3 59 17 86 52"></path><circle cx="124" cy="61" r="5"></circle></svg>
-      </div>
+    <article class="project-entry">
+      <a class="project-art" href="{{ '/research/mcm-2026/' | relative_url }}">
+        <img src="images/mcm.png" alt="MCM 2026 lunar logistics paper preview">
+      </a>
       <div class="project-entry__body">
         <div class="project-entry__meta">MCM 2026 · Modeling and programming lead</div>
         <h3>Dynamic Hybrid Lunar Logistics Optimization</h3>
         <p>Developed an Earth-to-Moon logistics model integrating space elevators, reusable rockets, and ISRU maturation. Used Differential Evolution (1,301 evaluations), 5,000-run Monte Carlo robustness analysis, and sensitivity analysis to derive a three-phase transition strategy.</p>
         <div class="project-facts" aria-label="MCM project results">
           <span>F Award · top 1%</span><span>USD 12T saved vs. rockets</span><span>88.3% less CO₂</span>
+        </div>
+        <div class="project-actions">
+          <a class="brand-link" href="{{ '/research/mcm-2026/' | relative_url }}">Paper</a>
+          <a class="brand-link" href="{{ '/files/MCM_2026.pdf' | relative_url }}">PDF</a>
         </div>
       </div>
     </article>
@@ -123,8 +133,10 @@ redirect_from:
   <div class="section-kicker">Products and platforms</div>
   <h2>Development Projects</h2>
   <div class="project-list">
-    <article class="project-entry project-entry--telos">
-      <div class="project-art project-art--telos" aria-hidden="true"><span>TL</span></div>
+    <article class="project-entry">
+      <a class="project-art" href="https://github.com/GaryYang12345/Telos">
+        <img src="images/telos.png" alt="Telos preview">
+      </a>
       <div class="project-entry__body">
         <div class="project-entry__meta">Independent full-stack developer · Aug. 2026 – Present</div>
         <h3>Telos: AI-Generated, Ready-to-Learn Courses</h3>
@@ -137,8 +149,10 @@ redirect_from:
       </div>
     </article>
 
-    <article class="project-entry project-entry--taskflow">
-      <div class="project-art project-art--taskflow" aria-hidden="true"><span>TF</span></div>
+    <article class="project-entry">
+      <div class="project-art">
+        <img src="images/taskflow.png" alt="TaskFlow AI preview">
+      </div>
       <div class="project-entry__body">
         <div class="project-entry__meta">Independent full-stack developer · Apr. 2026</div>
         <h3>TaskFlow AI: Visual Task Orchestration and Automation</h3>
@@ -146,8 +160,10 @@ redirect_from:
       </div>
     </article>
 
-    <article class="project-entry project-entry--voice">
-      <div class="project-art project-art--voice" aria-hidden="true"><span>VT</span></div>
+    <article class="project-entry">
+      <div class="project-art">
+        <img src="images/voice-turing.png" alt="Voice Turing Test preview">
+      </div>
       <div class="project-entry__body">
         <div class="project-entry__meta">Full-stack development lead · May 2025 – Aug. 2025</div>
         <h3>Voice Turing Test Data Collection Platform</h3>

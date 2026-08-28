@@ -44,6 +44,7 @@ redirect_from:
   <h2>Experience</h2>
   <div class="experience-timeline">
     <article class="experience-row">
+      <span class="experience-marker" aria-hidden="true"></span>
       <img src="images/cuhksz.png" alt="CUHK-Shenzhen emblem" class="institution-logo institution-logo--cuhk">
       <div class="experience-row__copy">
         <h3>The Chinese University of Hong Kong, Shenzhen</h3>
@@ -52,14 +53,16 @@ redirect_from:
       </div>
     </article>
     <article class="experience-row">
-      <img src="images/zhongke.png" alt="Dongguan Zhongke Institute of Cloud Computing emblem" class="institution-logo institution-logo--round">
+      <span class="experience-marker" aria-hidden="true"></span>
+      <img src="images/cloud-computing-center.png" alt="Cloud Computing Center, China Academy of Sciences emblem" class="institution-logo institution-logo--round">
       <div class="experience-row__copy">
-        <h3>China Academy of Sciences Cloud Computing</h3>
+        <h3>Cloud Computing Center, China Academy of Sciences</h3>
         <p>Research Intern · Agentic-RAG Question-Answering for Smart Mining</p>
         <time>Mar. 2025 – Jun. 2025</time>
       </div>
     </article>
     <article class="experience-row">
+      <span class="experience-marker" aria-hidden="true"></span>
       <img src="images/logo-airs.png" alt="AIRS logo" class="institution-logo institution-logo--airs">
       <div class="experience-row__copy">
         <h3>Shenzhen Institute of Artificial Intelligence and Robotics for Society</h3>
@@ -110,19 +113,18 @@ redirect_from:
     </article>
 
     <article class="project-entry">
-      <a class="project-art" href="{{ '/research/mcm-2026/' | relative_url }}">
+      <a class="project-art" href="{{ '/files/Paper.pdf' | relative_url }}">
         <img src="images/mcm.png" alt="MCM 2026 lunar logistics paper preview">
       </a>
       <div class="project-entry__body">
         <div class="project-entry__meta">MCM 2026 · Modeling and programming lead</div>
         <h3>Dynamic Hybrid Lunar Logistics Optimization</h3>
         <p>Developed an Earth-to-Moon logistics model integrating space elevators, reusable rockets, and ISRU maturation. Used Differential Evolution (1,301 evaluations), 5,000-run Monte Carlo robustness analysis, and sensitivity analysis to derive a three-phase transition strategy.</p>
-        <div class="project-facts" aria-label="MCM project results">
-          <span>F Award · top 1%</span><span>USD 12T saved vs. rockets</span><span>88.3% less CO₂</span>
+        <div class="project-facts" aria-label="MCM project recognition">
+          <span>Finalist · top 1%</span>
         </div>
         <div class="project-actions">
-          <a class="brand-link" href="{{ '/research/mcm-2026/' | relative_url }}">Paper</a>
-          <a class="brand-link" href="{{ '/files/MCM_2026.pdf' | relative_url }}">PDF</a>
+          <a class="brand-link" href="{{ '/files/Paper.pdf' | relative_url }}">Paper</a>
         </div>
       </div>
     </article>
@@ -177,8 +179,8 @@ redirect_from:
   <div class="section-kicker">Recognition</div>
   <h2>Awards</h2>
   <ul>
-    <li><time>2026</time> Mathematical Contest in Modeling (MCM), Finalist (F Award; top 1%).</li>
-    <li><time>2025</time> China International College Students’ Innovation Competition, Bronze Award.</li>
+    <li><time>2026</time> Mathematical Contest in Modeling (MCM), Finalist (top 1%).</li>
+    <li><time>2025</time> China International College Students’ Innovation Competition (CICSIC), Bronze Award.</li>
     <li><time>2023–2026</time> Dean’s List, CUHK-Shenzhen.</li>
     <li><time>2023–2024</time> Academic Performance Scholarship Awardee, CUHK-Shenzhen.</li>
   </ul>

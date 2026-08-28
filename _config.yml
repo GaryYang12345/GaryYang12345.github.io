@@ -8,7 +8,7 @@ baseurl                  : ""
 repository               : "GaryYang12345/GaryYang12345.github.io"
 
 author:
-  avatar           : "avatar.jpg"
+  avatar           : "avatar1.jpg"
   name             : "Geyi Yang"
   pronouns         :
   bio              : "B.Eng. Computer Engineering, CUHK-Shenzhen. Self-improving agent systems, Agents, and LLMs."

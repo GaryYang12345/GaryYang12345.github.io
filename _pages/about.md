@@ -98,7 +98,7 @@ redirect_from:
     <article class="project-entry">
       <a class="project-card-link" href="{{ '/projects/meme-qwen/' | relative_url }}" aria-label="Open Meme-Qwen details"></a>
       <div class="project-art">
-        <img src="images/meme-lm.png" alt="">
+        <img src="images/Meme-Qwen.png" alt="">
       </div>
       <div class="project-entry__body">
         <div class="project-entry__meta">Language modeling · Jan. 2026</div>
@@ -118,7 +118,7 @@ redirect_from:
     <article class="project-entry">
       <a class="project-card-link" href="{{ '/projects/mcm-2026/' | relative_url }}" aria-label="Open MCM 2026 details"></a>
       <div class="project-art">
-        <img src="images/mcm.png" alt="">
+        <img src="images/MCM-flowchart.png" alt="">
       </div>
       <div class="project-entry__body">
         <div class="project-entry__meta">MCM 2026 · Modeling and programming lead</div>
@@ -156,7 +156,7 @@ redirect_from:
     <article class="project-entry">
       <a class="project-card-link" href="{{ '/projects/taskflow/' | relative_url }}" aria-label="Open TaskFlow AI details"></a>
       <div class="project-art">
-        <img src="images/taskflow.png" alt="">
+        <img src="images/taskflowai.png" alt="">
       </div>
       <div class="project-entry__body">
         <div class="project-entry__meta">Independent full-stack developer · Apr. 2026</div>
@@ -168,7 +168,7 @@ redirect_from:
     <article class="project-entry">
       <a class="project-card-link" href="{{ '/projects/voice-turing/' | relative_url }}" aria-label="Open Voice Turing Test details"></a>
       <div class="project-art">
-        <img src="images/voice-turing.png" alt="">
+        <img src="images/Turing-cover.png" alt="">
       </div>
       <div class="project-entry__body">
         <div class="project-entry__meta">Full-stack development lead · May 2025 – Aug. 2025</div>

@@ -472,11 +472,13 @@ div.markdown-body a:focus-visible {
 }
 
 .author__urls .social-icon--hf {
+  box-sizing: border-box;
   display: block;
-  height: 1.05em;
+  height: 1.85em;
   justify-self: center;
   object-fit: contain;
-  width: 1.05em;
+  padding: 0.16em;
+  width: 1.85em;
 }
 
 .project-detail .paper-meta,

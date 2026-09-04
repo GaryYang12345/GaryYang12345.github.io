@@ -228,19 +228,40 @@ body {
 
 .project-list {
   border: 0;
+  display: grid;
+  gap: 0.85rem;
 }
 
 .project-entry {
   align-items: center;
-  border: 0;
+  background: #fff;
+  border: 1px solid #ece4ee;
+  border-radius: 14px;
+  cursor: pointer;
   display: grid;
   gap: 1.05rem;
-  grid-template-columns: minmax(220px, 38%) minmax(0, 1fr);
-  padding: 0.95rem 0;
+  grid-template-columns: minmax(200px, 34%) minmax(0, 1fr);
+  padding: 0.85rem;
+  position: relative;
+  transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
 }
 
-.project-entry + .project-entry {
-  border-top: 1px solid var(--line);
+.project-entry:hover,
+.project-entry:focus-within {
+  border-color: #d5c4de;
+  box-shadow: 0 10px 24px -16px rgba(79, 33, 107, 0.28);
+  transform: translateY(-2px);
+}
+
+.project-card-link {
+  inset: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.project-card-link:focus,
+.project-card-link:focus-visible {
+  outline: none !important;
 }
 
 .project-art {
@@ -250,14 +271,6 @@ body {
   display: block;
   min-height: 0;
   overflow: hidden;
-  transition: transform 180ms ease, opacity 180ms ease;
-}
-
-a.project-art:hover,
-a.project-art:focus-visible {
-  opacity: 0.92;
-  text-decoration: none !important;
-  transform: translateY(-1px);
 }
 
 .project-art img {
@@ -305,6 +318,8 @@ a.project-art:focus-visible {
   flex-wrap: wrap;
   gap: 0.4rem;
   margin-top: 0.7rem;
+  position: relative;
+  z-index: 2;
 }
 
 .brand-link {
@@ -436,7 +451,7 @@ div.markdown-body a:focus-visible {
 
 .page__content .cv-download,
 .page__content .brand-link,
-.page__content a.project-art {
+.page__content .project-card-link {
   background-image: none;
 }
 

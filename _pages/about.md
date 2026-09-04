@@ -9,8 +9,9 @@ redirect_from:
 ---
 
 <header class="intro">
-  <p>Hi, my name is <strong>Geyi Yang</strong> (杨戈易). I am an undergraduate student in Computer Engineering at <a href="https://www.cuhk.edu.cn/en">The Chinese University of Hong Kong, Shenzhen</a> (CUHK-Shenzhen). In Spring 2026, I was a GLOBE Program visiting student in Computer Science at <a href="https://www.berkeley.edu/">UC Berkeley</a>.</p>
-  <p>My research interests focus on <strong>Agents and LLMs</strong>. I am now looking more closely at how agent systems can be improved at inference time, for example by diagnosing failures and revising the surrounding harness, rather than retraining the agent itself. In HarnessGrad, a stronger model acts as a meta-controller to optimize GUI-agent harnesses. I have also worked on retrieval-augmented generation (RAG), model post-training, and dataset construction. In MCM 2026, I received a Finalist award (top 1%).</p>
+  <p>Hi, my name is <strong>Geyi Yang</strong> (杨戈易), also known as <strong>Gary</strong>. I am an undergraduate student in Computer Engineering at <a href="https://www.cuhk.edu.cn/en">The Chinese University of Hong Kong, Shenzhen</a> (CUHK-Shenzhen). In Spring 2026, I was a GLOBE Program visiting student in Computer Science at <a href="https://www.berkeley.edu/">UC Berkeley</a>.</p>
+  <p>My research interests lie in <strong>Agents</strong> and <strong>Large Language Models</strong>, with a growing focus on <strong>recursive self-improvement (RSI)</strong> for agentic systems. I am interested in how agents can learn from execution feedback, diagnose recurring failures, and improve through iterative adaptation. My recent research project, <strong>HarnessGrad</strong>, is an iterative system for GUI-agent harness optimization that identifies a harness framework best suited to a given model. I also have experience in <strong>retrieval-augmented generation (RAG)</strong>, <strong>LLM post-training</strong>, and <strong>dataset construction</strong>.</p>
+  <p>Beyond research, I was the modeling and programming lead for a team in the <strong>Mathematical Contest in Modeling (MCM) 2026</strong>, receiving the <strong>Finalist (F Award, top 1%)</strong> distinction. I have also served as an <strong>Undergraduate Student Teaching Fellow</strong> for Calculus I at CUHK-Shenzhen. Outside work, I enjoy <strong>photography</strong>, <strong>piano</strong>, <strong>drawing</strong>, and <strong>hiking</strong>.</p>
   <p class="intro__actions">
     <a class="cv-download" href="{{ '/files/GeyiYang_CV.pdf' | relative_url }}">Download CV</a>
   </p>
@@ -78,15 +79,15 @@ redirect_from:
   <h2>Research Projects</h2>
   <div class="project-list">
     <article class="project-entry">
-      <a class="project-art" href="{{ '/projects/harnessgrad/' | relative_url }}">
-        <img src="images/harnessgrad.png" alt="HarnessGrad preview">
-      </a>
+      <a class="project-card-link" href="{{ '/projects/harnessgrad/' | relative_url }}" aria-label="Open HarnessGrad details"></a>
+      <div class="project-art">
+        <img src="images/harnessgrad.png" alt="">
+      </div>
       <div class="project-entry__body">
         <div class="project-entry__meta">GUI agents · Jul. 2026 – Present</div>
         <h3>HarnessGrad: Adaptive Harness Optimization for GUI Agents</h3>
         <p>Used a stronger model as a meta-controller to optimize GUI-agent harnesses at inference time: read traces, cluster failures, attribute them to editable harness components, and retain or roll back updates. On OSWorld, improved the optimization-set score from 0.267 to 0.454 (+70%).</p>
         <div class="project-actions">
-          <a class="brand-link" href="{{ '/projects/harnessgrad/' | relative_url }}">Details</a>
           <a class="brand-link" href="https://github.com/GaryYang12345/HarnessGrad" aria-label="Open HarnessGrad on GitHub">
             <i class="fab fa-github" aria-hidden="true"></i>GitHub
           </a>
@@ -95,15 +96,15 @@ redirect_from:
     </article>
 
     <article class="project-entry">
-      <a class="project-art" href="{{ '/projects/meme-qwen/' | relative_url }}">
-        <img src="images/meme-lm.png" alt="Meme Language Model preview">
-      </a>
+      <a class="project-card-link" href="{{ '/projects/meme-qwen/' | relative_url }}" aria-label="Open Meme-Qwen details"></a>
+      <div class="project-art">
+        <img src="images/meme-lm.png" alt="">
+      </div>
       <div class="project-entry__body">
         <div class="project-entry__meta">Language modeling · Jan. 2026</div>
         <h3>Meme-Qwen-7B-Instruct</h3>
         <p>Independently built the full data-to-model pipeline: 30,000+ post-comment pairs, an 8,680-example Chinese meme SFT dataset, and Qwen2.5-7B LoRA + DPO training on one A100. Meme-use accuracy improved by 32%.</p>
         <div class="project-actions">
-          <a class="brand-link" href="{{ '/projects/meme-qwen/' | relative_url }}">Details</a>
           <a class="brand-link brand-link--hf" href="https://huggingface.co/GaryYang123/Meme-Qwen-7B-Instruct" aria-label="Open Meme-Qwen model on Hugging Face">
             <img src="images/hf-logo.png" alt="">Model
           </a>
@@ -115,15 +116,15 @@ redirect_from:
     </article>
 
     <article class="project-entry">
-      <a class="project-art" href="{{ '/projects/mcm-2026/' | relative_url }}">
-        <img src="images/mcm.png" alt="MCM 2026 lunar logistics paper preview">
-      </a>
+      <a class="project-card-link" href="{{ '/projects/mcm-2026/' | relative_url }}" aria-label="Open MCM 2026 details"></a>
+      <div class="project-art">
+        <img src="images/mcm.png" alt="">
+      </div>
       <div class="project-entry__body">
         <div class="project-entry__meta">MCM 2026 · Modeling and programming lead</div>
         <h3>Dynamic Hybrid Lunar Logistics Optimization <span class="title-tag">Finalist</span></h3>
         <p>Developed an Earth-to-Moon logistics model integrating space elevators, reusable rockets, and ISRU maturation. Used Differential Evolution (1,301 evaluations), 5,000-run Monte Carlo robustness analysis, and sensitivity analysis to derive a three-phase transition strategy.</p>
         <div class="project-actions">
-          <a class="brand-link" href="{{ '/projects/mcm-2026/' | relative_url }}">Details</a>
           <a class="brand-link" href="{{ '/files/Paper.pdf' | relative_url }}">Paper</a>
         </div>
       </div>
@@ -136,15 +137,15 @@ redirect_from:
   <h2>Development Projects</h2>
   <div class="project-list">
     <article class="project-entry">
-      <a class="project-art" href="{{ '/projects/telos/' | relative_url }}">
-        <img src="images/telos.png" alt="Telos preview">
-      </a>
+      <a class="project-card-link" href="{{ '/projects/telos/' | relative_url }}" aria-label="Open Telos details"></a>
+      <div class="project-art">
+        <img src="images/telos.png" alt="">
+      </div>
       <div class="project-entry__body">
         <div class="project-entry__meta">Independent full-stack developer · Aug. 2026 – Present</div>
         <h3>Telos: AI-Generated, Ready-to-Learn Courses</h3>
         <p>A goal-driven course-generation system that turns fragmented materials and online resources into structured, multimodal, ready-to-learn courses, with a workspace for text, media, tutoring, and retrieval.</p>
         <div class="project-actions">
-          <a class="brand-link" href="{{ '/projects/telos/' | relative_url }}">Details</a>
           <a class="brand-link" href="https://github.com/GaryYang12345/Telos" aria-label="Open Telos on GitHub">
             <i class="fab fa-github" aria-hidden="true"></i>GitHub
           </a>
@@ -153,30 +154,26 @@ redirect_from:
     </article>
 
     <article class="project-entry">
-      <a class="project-art" href="{{ '/projects/taskflow/' | relative_url }}">
-        <img src="images/taskflow.png" alt="TaskFlow AI preview">
-      </a>
+      <a class="project-card-link" href="{{ '/projects/taskflow/' | relative_url }}" aria-label="Open TaskFlow AI details"></a>
+      <div class="project-art">
+        <img src="images/taskflow.png" alt="">
+      </div>
       <div class="project-entry__body">
         <div class="project-entry__meta">Independent full-stack developer · Apr. 2026</div>
         <h3>TaskFlow AI: Visual Task Orchestration and Automation</h3>
         <p>A dual-level node-flow workspace for tasks, dependencies, statuses, deadlines, and serial/parallel/merge sub-workflows. Integrates OpenClaw and Lark to extract tasks from email and synchronize reports, tables, and calendars.</p>
-        <div class="project-actions">
-          <a class="brand-link" href="{{ '/projects/taskflow/' | relative_url }}">Details</a>
-        </div>
       </div>
     </article>
 
     <article class="project-entry">
-      <a class="project-art" href="{{ '/projects/voice-turing/' | relative_url }}">
-        <img src="images/voice-turing.png" alt="Voice Turing Test preview">
-      </a>
+      <a class="project-card-link" href="{{ '/projects/voice-turing/' | relative_url }}" aria-label="Open Voice Turing Test details"></a>
+      <div class="project-art">
+        <img src="images/voice-turing.png" alt="">
+      </div>
       <div class="project-entry__body">
         <div class="project-entry__meta">Full-stack development lead · May 2025 – Aug. 2025</div>
         <h3>Voice Turing Test</h3>
         <p>A WeChat Mini Program game in which players listen to multi-speaker conversations and decide who is human and who is AI. Built as a product first, with scoring, combos, bilingual UI, and gamified retention; the same platform also collected data for an ICLR 2026 paper.</p>
-        <div class="project-actions">
-          <a class="brand-link" href="{{ '/projects/voice-turing/' | relative_url }}">Details</a>
-        </div>
       </div>
     </article>
   </div>

@@ -2,7 +2,7 @@ locale                   : "en-US"
 title                    : "Geyi Yang"
 title_separator          : "-"
 name                     : "Geyi Yang"
-description              : &description "Undergraduate in Computer Engineering at CUHK-Shenzhen. Working on self-improving agent systems, Agents/LLMs, and full-stack AI products."
+description              : &description "Undergraduate in Computer Engineering at CUHK-Shenzhen. Working on Agents, LLMs, RAG, and full-stack AI products."
 url                      : "https://garyyang12345.github.io"
 baseurl                  : ""
 repository               : "GaryYang12345/GaryYang12345.github.io"
@@ -11,7 +11,7 @@ author:
   avatar           : "avatar1.jpg"
   name             : "Geyi Yang"
   pronouns         :
-  bio              : "B.Eng. Computer Engineering, CUHK-Shenzhen. Self-improving agent systems, Agents, and LLMs."
+  bio              : "B.Eng. Computer Engineering, CUHK-Shenzhen. Agents, LLMs, and RAG."
   location         : "Shenzhen, China"
   employer         : "CUHK-Shenzhen"
   uri              :
@@ -29,6 +29,7 @@ author:
   codepen          :
   dribbble         :
   github           : "GaryYang12345"
+  huggingface      : "GaryYang123"
   kaggle           :
   stackoverflow    :
 

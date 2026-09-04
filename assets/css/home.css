@@ -233,7 +233,7 @@ body {
 }
 
 .project-entry {
-  align-items: center;
+  align-items: start;
   background: #fff;
   border: 1px solid #ece4ee;
   border-radius: 14px;
@@ -265,8 +265,7 @@ body {
 }
 
 .project-art {
-  aspect-ratio: 16 / 9;
-  background: #f4f1ed;
+  background: #f7f4f0;
   border-radius: 10px;
   display: block;
   min-height: 0;
@@ -275,8 +274,8 @@ body {
 
 .project-art img {
   display: block;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   width: 100%;
 }
 
@@ -425,6 +424,21 @@ div.markdown-body a:focus-visible {
   text-decoration: none !important;
 }
 
+.page__content .intro a.intro-jump {
+  background-image: none;
+  border-bottom: 1px dashed currentColor;
+  color: var(--cuhk-purple);
+  text-decoration: none !important;
+}
+
+.page__content .intro a.intro-jump:hover,
+.page__content .intro a.intro-jump:focus-visible {
+  background-image: none;
+  background-size: 0;
+  border-bottom-style: solid;
+  color: var(--cuhk-purple-deep);
+}
+
 .page__content .intro a,
 .page__content .education-row a,
 .page__content .experience-row a,
@@ -477,7 +491,7 @@ div.markdown-body a:focus-visible {
   height: 1.85em;
   justify-self: center;
   object-fit: contain;
-  padding: 0.16em;
+  padding: 0.04em;
   width: 1.85em;
 }
 

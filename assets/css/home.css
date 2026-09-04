@@ -233,7 +233,7 @@ body {
 }
 
 .project-entry {
-  align-items: start;
+  align-items: center;
   background: #fff;
   border: 1px solid #ece4ee;
   border-radius: 14px;
@@ -488,11 +488,11 @@ div.markdown-body a:focus-visible {
 .author__urls .social-icon--hf {
   box-sizing: border-box;
   display: block;
-  height: 1.85em;
+  height: 1.52em;
   justify-self: center;
   object-fit: contain;
-  padding: 0.04em;
-  width: 1.85em;
+  padding: 0;
+  width: 1.52em;
 }
 
 .project-detail .paper-meta,

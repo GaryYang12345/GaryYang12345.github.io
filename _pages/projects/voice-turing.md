@@ -39,7 +39,6 @@ stylesheets:
 
   <h2>My contribution</h2>
   <p>I independently owned the workflow from Mini Program registration and compliance through UI/UX design, front-end and back-end development, testing, deployment, and operations. The native WeChat front end controls the listening and judgment flow, while Tencent Cloud functions, database, and storage support user accounts, audio resources, scoring, and research-data collection.</p>
-  <p>The native WeChat front end controls the listening and judgment flow, while Tencent Cloud functions, database, and storage support user accounts, audio resources, scoring, and research-data collection. I independently handled Mini Program registration and compliance, Figma UI/UX design, implementation, testing, deployment, and operations.</p>
 
   <div class="article-gallery article-gallery--phones">
     <figure><img src="{{ '/images/turing.png' | relative_url }}" alt="Voice Turing Test start screen"><figcaption>Entry</figcaption></figure>

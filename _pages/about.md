@@ -9,89 +9,27 @@ redirect_from:
 ---
 
 <header class="intro">
-  <p>Hi, my name is <strong>Geyi Yang</strong> (杨戈易), also known as <strong>Gary</strong>. I am an undergraduate student in Computer Engineering at <a href="https://www.cuhk.edu.cn/en">The Chinese University of Hong Kong, Shenzhen</a> (CUHK-Shenzhen). In Spring 2026, I was a GLOBE Program visiting student in Computer Science at <a href="https://www.berkeley.edu/">UC Berkeley</a>.</p>
-  <p>My research interests lie in <strong>Agents</strong> and <strong>Large Language Models</strong>, with a growing focus on <strong>recursive self-improvement (RSI)</strong> for agentic systems. I am interested in how agents can learn from execution feedback, diagnose recurring failures, and improve through iterative adaptation. My recent research project, <a class="intro-jump" href="{{ '/projects/harnessgrad/' | relative_url }}"><strong>HarnessGrad</strong></a>, is an iterative system for GUI-agent harness optimization that identifies a harness framework best suited to a given model. I also have experience in <strong>retrieval-augmented generation (RAG)</strong>, <strong>LLM post-training</strong>, and <strong>dataset construction</strong>.</p>
-  <p>Beyond research, I was the modeling and programming lead for a team in the <a class="intro-jump" href="{{ '/projects/mcm-2026/' | relative_url }}"><strong>Mathematical Contest in Modeling (MCM) 2026</strong></a>, receiving the <strong>Finalist (F Award, top 1%)</strong> distinction. I have also served as an <strong>Undergraduate Student Teaching Fellow</strong> for Calculus I at CUHK-Shenzhen. Outside work, I enjoy <strong>photography</strong>, <strong>piano</strong>, <strong>drawing</strong>, and <strong>hiking</strong>.</p>
+  <p>Hi, I am <strong>Geyi Yang</strong> (杨戈易), also known as <strong>Gary</strong>. I am an undergraduate researcher in Computer Engineering at <a href="https://www.cuhk.edu.cn/en">The Chinese University of Hong Kong, Shenzhen</a> (CUHK-Shenzhen), and was a GLOBE Program visiting student in Computer Science at <a href="https://www.berkeley.edu/">UC Berkeley</a> in Spring 2026.</p>
+  <p>My research interests include <strong>GUI agents</strong>, <strong>self-improving agentic systems</strong>, <strong>harness optimization</strong>, and <strong>retrieval-augmented generation (RAG)</strong>. My current project, <a class="intro-jump" href="{{ '/projects/harnessgrad/' | relative_url }}"><strong>GUI-HarnessGrad</strong></a>, develops an automated, failure-driven algorithm that learns from execution feedback to improve the harness around a fixed GUI-agent model.</p>
+  <p>I also enjoy turning technical ideas into usable systems. My work includes the <a class="intro-jump" href="{{ '/projects/voice-turing/' | relative_url }}"><strong>Voice Turing Test</strong></a>, a public WeChat game and ICLR 2026 research data platform, and <a class="intro-jump" href="{{ '/projects/telos/' | relative_url }}"><strong>Telos</strong></a>, a goal-driven product for converting fragmented resources into ready-to-learn courses. Beyond computing, I enjoy photography, piano, drawing, and hiking.</p>
   <p class="intro__actions">
     <a class="cv-download" href="{{ '/files/GeyiYang_CV.pdf' | relative_url }}">Download CV</a>
   </p>
 </header>
-
-<section id="education" class="resume-section">
-  <div class="section-kicker">Academic background</div>
-  <h2>Education</h2>
-  <div class="education-list">
-    <article class="education-row">
-      <img src="images/cuhksz.png" alt="CUHK-Shenzhen emblem" class="institution-logo institution-logo--cuhk">
-      <div class="education-row__copy">
-        <h3>The Chinese University of Hong Kong, Shenzhen</h3>
-        <p>B.Eng. in Computer Engineering · GPA 3.73/4.00</p>
-        <time>Sep. 2023 – Present</time>
-      </div>
-    </article>
-    <article class="education-row">
-      <img src="images/berkeley.svg" alt="UC Berkeley emblem" class="institution-logo institution-logo--berkeley">
-      <div class="education-row__copy">
-        <h3>University of California, Berkeley</h3>
-        <p>GLOBE Program Visiting Student in Computer Science</p>
-        <time>Jan. 2026 – Jun. 2026</time>
-      </div>
-    </article>
-  </div>
-</section>
-
-<section id="experience" class="resume-section">
-  <div class="section-kicker">Research and internships</div>
-  <h2>Experience</h2>
-  <div class="experience-timeline">
-    <article class="experience-row">
-      <span class="experience-marker" aria-hidden="true"></span>
-      <img src="images/cuhksz.png" alt="CUHK-Shenzhen emblem" class="institution-logo institution-logo--cuhk">
-      <div class="experience-row__copy">
-        <h3>The Chinese University of Hong Kong, Shenzhen</h3>
-        <p>Research Assistant · advised by <a href="https://daizhongxiang.github.io/index.html">Prof. Zhongxiang Dai</a></p>
-        <time>Jul. 2026 – Present</time>
-      </div>
-    </article>
-    <article class="experience-row">
-      <span class="experience-marker" aria-hidden="true"></span>
-      <img src="images/cloud-computing-center.png" alt="Cloud Computing Center, China Academy of Sciences emblem" class="institution-logo institution-logo--round">
-      <div class="experience-row__copy">
-        <h3>Cloud Computing Center, China Academy of Sciences</h3>
-        <p>Research Intern · Agentic-RAG chatbot for smart mining</p>
-        <time>Mar. 2025 – Jun. 2025</time>
-      </div>
-    </article>
-    <article class="experience-row">
-      <span class="experience-marker" aria-hidden="true"></span>
-      <img src="images/logo-airs.png" alt="AIRS logo" class="institution-logo institution-logo--airs">
-      <div class="experience-row__copy">
-        <h3>Shenzhen Institute of Artificial Intelligence and Robotics for Society</h3>
-        <p>Research Intern · Digital human reconstruction</p>
-        <time>Sep. 2023 – Jun. 2024</time>
-      </div>
-    </article>
-  </div>
-</section>
 
 <section id="research" class="project-section">
   <div class="section-kicker">Modeling, systems, and machine learning</div>
   <h2>Research Projects</h2>
   <div class="project-list">
     <article class="project-entry">
-      <a class="project-card-link" href="{{ '/projects/harnessgrad/' | relative_url }}" aria-label="Open HarnessGrad details"></a>
+      <a class="project-card-link" href="{{ '/projects/harnessgrad/' | relative_url }}" aria-label="Open GUI-HarnessGrad details"></a>
       <div class="project-art">
         <img src="images/harnessgrad.png" alt="">
       </div>
       <div class="project-entry__body">
         <div class="project-entry__meta">GUI agents · Jul. 2026 – Present</div>
-        <h3>HarnessGrad: Adaptive Harness Optimization for GUI Agents</h3>
-        <p>Used a stronger model as a meta-controller to optimize GUI-agent harnesses at inference time: read traces, cluster failures, attribute them to editable harness components, and retain or roll back updates. On OSWorld, improved the optimization-set score from 0.267 to 0.454 (+70%).</p>
-        <div class="project-actions">
-          <a class="brand-link" href="https://github.com/GaryYang12345/HarnessGrad" aria-label="Open HarnessGrad on GitHub">
-            <i class="fab fa-github" aria-hidden="true"></i>GitHub
-          </a>
-        </div>
+        <h3>GUI-HarnessGrad: Automated Harness Optimization for GUI Agents</h3>
+        <p>Develops a failure-driven optimization algorithm for improving the inference-time harness around a fixed GUI-agent model. On OSWorld (361 tasks, 15-step budget), the optimized harness raised Qwen3-VL-32B-Instruct from 37.67% to 50.95% (+13.28 points).</p>
       </div>
     </article>
 
@@ -132,10 +70,82 @@ redirect_from:
   </div>
 </section>
 
+<section id="experience" class="resume-section">
+  <div class="section-kicker">Research and internships</div>
+  <h2>Experience</h2>
+  <div class="experience-timeline">
+    <article class="experience-row">
+      <span class="experience-marker" aria-hidden="true"></span>
+      <img src="images/cuhksz.png" alt="CUHK-Shenzhen emblem" class="institution-logo institution-logo--cuhk">
+      <div class="experience-row__copy">
+        <h3>The Chinese University of Hong Kong, Shenzhen</h3>
+        <p>Research Assistant · advised by <a href="https://daizhongxiang.github.io/index.html">Prof. Zhongxiang Dai</a></p>
+        <time>Jul. 2026 – Present</time>
+      </div>
+    </article>
+    <article class="experience-row">
+      <span class="experience-marker" aria-hidden="true"></span>
+      <img src="images/cloud-computing-center.png" alt="Cloud Computing Center, Chinese Academy of Sciences emblem" class="institution-logo institution-logo--round">
+      <div class="experience-row__copy">
+        <h3>Cloud Computing Center, Chinese Academy of Sciences</h3>
+        <p>Research Intern · Agentic-RAG chatbot for smart mining</p>
+        <time>Mar. 2025 – Jun. 2025</time>
+      </div>
+    </article>
+    <article class="experience-row">
+      <span class="experience-marker" aria-hidden="true"></span>
+      <img src="images/logo-airs.png" alt="AIRS logo" class="institution-logo institution-logo--airs">
+      <div class="experience-row__copy">
+        <h3>Shenzhen Institute of Artificial Intelligence and Robotics for Society</h3>
+        <p>Research Intern · Digital human reconstruction</p>
+        <time>Sep. 2023 – Jun. 2024</time>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="education" class="resume-section">
+  <div class="section-kicker">Academic background</div>
+  <h2>Education</h2>
+  <div class="education-list">
+    <article class="education-row">
+      <img src="images/cuhksz.png" alt="CUHK-Shenzhen emblem" class="institution-logo institution-logo--cuhk">
+      <div class="education-row__copy">
+        <h3>The Chinese University of Hong Kong, Shenzhen</h3>
+        <p>B.Eng. in Computer Engineering · GPA 3.73/4.00</p>
+        <time>Sep. 2023 – Present</time>
+      </div>
+    </article>
+    <article class="education-row">
+      <img src="images/berkeley.svg" alt="UC Berkeley emblem" class="institution-logo institution-logo--berkeley">
+      <div class="education-row__copy">
+        <h3>University of California, Berkeley</h3>
+        <p>GLOBE Program Visiting Student in Computer Science</p>
+        <time>Jan. 2026 – Jun. 2026</time>
+      </div>
+    </article>
+  </div>
+</section>
+
 <section id="development" class="project-section">
   <div class="section-kicker">Products and platforms</div>
   <h2>Development Projects</h2>
   <div class="project-list">
+    <article class="project-entry">
+      <a class="project-card-link" href="{{ '/projects/voice-turing/' | relative_url }}" aria-label="Open Voice Turing Test details"></a>
+      <div class="project-art">
+        <img src="images/Turing-cover.png" alt="">
+      </div>
+      <div class="project-entry__body">
+        <div class="project-entry__meta">Full-stack development lead · May 2025 – Aug. 2025</div>
+        <h3>Voice Turing Test</h3>
+        <p>A public WeChat Mini Program game for judging Human-vs-AI speech, with bilingual challenges, scoring, achievements, referrals, and leaderboards. I led the product's full-stack development; it also served as the data-collection platform for an ICLR 2026 paper.</p>
+        <div class="project-actions">
+          <a class="brand-link" href="https://openreview.net/forum?id=Pv5l6cvfno">ICLR 2026 paper</a>
+        </div>
+      </div>
+    </article>
+
     <article class="project-entry">
       <a class="project-card-link" href="{{ '/projects/telos/' | relative_url }}" aria-label="Open Telos details"></a>
       <div class="project-art">
@@ -144,11 +154,9 @@ redirect_from:
       <div class="project-entry__body">
         <div class="project-entry__meta">Independent full-stack developer · Aug. 2026 – Present</div>
         <h3>Telos: AI-Generated, Ready-to-Learn Courses</h3>
-        <p>A goal-driven course-generation system that turns fragmented materials and online resources into structured, multimodal, ready-to-learn courses, with a workspace for text, media, tutoring, and retrieval.</p>
+        <p>A goal-conditioned education product that retrieves, evaluates, deduplicates, and sequences user materials and cross-platform resources into a structured, multimodal course that is ready to learn inside one workspace.</p>
         <div class="project-actions">
-          <a class="brand-link" href="https://github.com/GaryYang12345/Telos" aria-label="Open Telos on GitHub">
-            <i class="fab fa-github" aria-hidden="true"></i>GitHub
-          </a>
+          <a class="brand-link" href="https://github.com/GaryYang12345/Telos" aria-label="Open Telos on GitHub"><i class="fab fa-github" aria-hidden="true"></i>GitHub</a>
         </div>
       </div>
     </article>
@@ -162,18 +170,9 @@ redirect_from:
         <div class="project-entry__meta">Independent full-stack developer · Apr. 2026</div>
         <h3>TaskFlow AI: Visual Task Orchestration and Automation</h3>
         <p>A dual-level node-flow workspace for tasks, dependencies, statuses, deadlines, and serial/parallel/merge sub-workflows. Integrates OpenClaw and Lark to extract tasks from email and synchronize reports, tables, and calendars.</p>
-      </div>
-    </article>
-
-    <article class="project-entry">
-      <a class="project-card-link" href="{{ '/projects/voice-turing/' | relative_url }}" aria-label="Open Voice Turing Test details"></a>
-      <div class="project-art">
-        <img src="images/Turing-cover.png" alt="">
-      </div>
-      <div class="project-entry__body">
-        <div class="project-entry__meta">Full-stack development lead · May 2025 – Aug. 2025</div>
-        <h3>Voice Turing Test</h3>
-        <p>A WeChat Mini Program game in which players listen to multi-speaker conversations and decide who is human and who is AI. Built as a product first, with scoring, combos, bilingual UI, and gamified retention; the same platform also collected data for an ICLR 2026 paper.</p>
+        <div class="project-actions">
+          <a class="brand-link" href="https://github.com/GaryYang12345/TaskFlowAI" aria-label="Open TaskFlow AI on GitHub"><i class="fab fa-github" aria-hidden="true"></i>GitHub</a>
+        </div>
       </div>
     </article>
   </div>
@@ -194,6 +193,6 @@ redirect_from:
   <div class="section-kicker">Teaching</div>
   <h2>Services</h2>
   <ul>
-    <li><time>2025</time> Undergraduate Student Teaching Fellow (USTF), MAT1001 Calculus I, CUHK-Shenzhen.</li>
+    <li><time>2025</time> Teaching Assistant, MAT1001 Calculus I, CUHK-Shenzhen.</li>
   </ul>
 </section>

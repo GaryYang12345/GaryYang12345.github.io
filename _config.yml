@@ -2,7 +2,7 @@ locale                   : "en-US"
 title                    : "Geyi Yang"
 title_separator          : "-"
 name                     : "Geyi Yang"
-description              : &description "Undergraduate in Computer Engineering at CUHK-Shenzhen. Working on Agents, LLMs, RAG, and full-stack AI products."
+description              : &description "Undergraduate researcher at CUHK-Shenzhen working on GUI agents, self-improving agentic systems, harness optimization, and RAG."
 url                      : "https://garyyang12345.github.io"
 baseurl                  : ""
 repository               : "GaryYang12345/GaryYang12345.github.io"
@@ -11,7 +11,7 @@ author:
   avatar           : "avatar1.jpg"
   name             : "Geyi Yang"
   pronouns         :
-  bio              : "B.Eng. Computer Engineering, CUHK-Shenzhen. Agents, LLMs, and RAG."
+  bio              : "B.Eng. Computer Engineering, CUHK-Shenzhen. GUI agents, self-improving agentic systems, harness optimization, and RAG."
   location         : "Shenzhen, China"
   employer         : "CUHK-Shenzhen"
   uri              :
@@ -131,6 +131,22 @@ exclude:
   - package.json
   - tmp
   - vendor
+  - markdown_generator
+  - talkmap
+  - _pages/archive-layout-with-content.md
+  - _pages/category-archive.html
+  - _pages/collection-archive.html
+  - _pages/markdown.md
+  - _pages/non-menu-page.md
+  - _pages/page-archive.html
+  - _pages/publications.md
+  - _pages/sitemap.md
+  - _pages/tag-archive.html
+  - _pages/talkmap.html
+  - _pages/talks.html
+  - _pages/teaching.html
+  - _pages/terms.md
+  - _pages/year-archive.html
 
 keep_files:
   - .git

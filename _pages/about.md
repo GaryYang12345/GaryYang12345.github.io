@@ -25,7 +25,7 @@ redirect_from:
 
 <section id="research" class="home-section">
   <h2>Research</h2>
-  <p>More recently, I have become particularly interested in <strong>self-improving agentic systems and recursive self-improvement (RSI)</strong>, especially how agents can turn their own execution traces, failures, and feedback into reliable improvements in future behavior. My current work, <a href="{{ '/projects/gui-harvest/' | relative_url }}">GUI-HARVEST</a>, studies how repeated multimodal execution evidence can drive systematic, validated changes to a GUI agent's inference-time harness.</p>
+  <p>More recently, I have become particularly interested in <strong>self-improving agentic systems</strong>, especially how agents can turn their own execution traces, failures, and feedback into reliable improvements in future behavior. My current work, <a href="{{ '/projects/gui-harvest/' | relative_url }}">GUI-HARVEST</a>, studies how repeated multimodal execution evidence can drive systematic, validated changes to a GUI agent's inference-time harness.</p>
 </section>
 
 <section class="home-section publications-section">

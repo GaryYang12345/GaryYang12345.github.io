@@ -11,8 +11,8 @@ redirect_from:
 <header class="profile-intro">
   <img class="profile-intro__photo" src="{{ '/images/avatar1.jpg' | relative_url }}" alt="Portrait of Geyi Yang">
   <div class="profile-intro__copy">
-    <h1><strong>Geyi</strong> Yang <span>杨戈易</span></h1>
-    <p>Hi, I am Geyi Yang, also known as Gary. I am an undergraduate researcher in Computer Engineering at <a href="https://www.cuhk.edu.cn/en">The Chinese University of Hong Kong, Shenzhen</a> (CUHK-Shenzhen), and was a GLOBE Program visiting student in Computer Science at <a href="https://www.berkeley.edu/">UC Berkeley</a> in Spring 2026.</p>
+    <h1>Geyi Yang <span>杨戈易</span></h1>
+    <p>Hi, I am Geyi Yang, also known as Gary. I am an undergraduate researcher in Computer Engineering at <a href="https://www.cuhk.edu.cn/en">The Chinese University of Hong Kong, Shenzhen</a> (CUHK-Shenzhen), and was a GLOBE Program visiting student in Computer Science at <a href="https://www.berkeley.edu/">UC Berkeley</a> in Spring 2026. I am currently advised by <a href="https://daizhongxiang.github.io/index.html">Prof. Zhongxiang Dai</a>.</p>
     <p>I am broadly interested in <strong>LLM-based agents, GUI agents, self-improving agentic systems, harness optimization, and retrieval-augmented generation (RAG)</strong>. My previous work also covers LLM post-training and dataset construction.</p>
     <nav class="profile-links" aria-label="Profile links">
       <a href="mailto:123090721@link.cuhk.edu.cn"><i class="fas fa-envelope" aria-hidden="true"></i>Email</a>
@@ -84,18 +84,15 @@ redirect_from:
   <div class="resume-list">
     <article class="resume-row">
       <img src="{{ '/images/bigdata.png' | relative_url }}" alt="Shenzhen Research Institute of Big Data logo" class="institution-logo institution-logo--sribd">
-      <div><h3>Research Assistant, Shenzhen Research Institute of Big Data</h3><p>Advisor: <a href="https://daizhongxiang.github.io/index.html">Prof. Zhongxiang Dai</a></p></div>
-      <time>Jul. 2026 – Present</time>
+      <div><h3>Research Assistant, Shenzhen Research Institute of Big Data</h3><p>Advisor: <a href="https://daizhongxiang.github.io/index.html">Prof. Zhongxiang Dai</a></p><time>Jul. 2026 – Present</time></div>
     </article>
     <article class="resume-row">
       <img src="{{ '/images/cloud-computing-center.png' | relative_url }}" alt="Cloud Computing Center, Chinese Academy of Sciences logo" class="institution-logo">
-      <div><h3>Cloud Computing Center, Chinese Academy of Sciences</h3><p>Domain-specific Agentic RAG for mining-blasting QA</p></div>
-      <time>Mar. 2025 – Jun. 2025</time>
+      <div><h3>Cloud Computing Center, Chinese Academy of Sciences</h3><p>Domain-specific Agentic RAG for mining-blasting QA</p><time>Mar. 2025 – Jun. 2025</time></div>
     </article>
     <article class="resume-row">
       <img src="{{ '/images/logo-airs.png' | relative_url }}" alt="AIRS logo" class="institution-logo institution-logo--airs">
-      <div><h3>Shenzhen Institute of Artificial Intelligence and Robotics for Society</h3><p>Multimodal digital human synthesis for emotional interaction</p></div>
-      <time>Sep. 2023 – Jun. 2024</time>
+      <div><h3>Shenzhen Institute of Artificial Intelligence and Robotics for Society</h3><p>Multimodal digital human synthesis for emotional interaction</p><time>Sep. 2023 – Jun. 2024</time></div>
     </article>
   </div>
 </section>
@@ -105,33 +102,63 @@ redirect_from:
   <div class="resume-list">
     <article class="resume-row">
       <img src="{{ '/images/cuhksz.png' | relative_url }}" alt="CUHK-Shenzhen logo" class="institution-logo">
-      <div><h3>The Chinese University of Hong Kong, Shenzhen</h3><p>B.Eng. in Computer Engineering · GPA 3.73/4.00</p></div>
-      <time>Sep. 2023 – Present</time>
+      <div><h3>The Chinese University of Hong Kong, Shenzhen</h3><p>B.Eng. in Computer Engineering · GPA 3.73/4.00</p><time>Sep. 2023 – Present</time></div>
     </article>
     <article class="resume-row">
       <img src="{{ '/images/berkeley.svg' | relative_url }}" alt="UC Berkeley logo" class="institution-logo">
-      <div><h3>University of California, Berkeley</h3><p>GLOBE Program Visiting Student in Computer Science</p></div>
-      <time>Jan. 2026 – Jun. 2026</time>
+      <div><h3>University of California, Berkeley</h3><p>GLOBE Program Visiting Student in Computer Science</p><time>Jan. 2026 – Jun. 2026</time></div>
     </article>
   </div>
 </section>
 
 <section id="development" class="home-section">
   <h2>Development Projects</h2>
-  <div class="text-project-list">
-    <article>
-      <div><h3><a href="{{ '/projects/voice-turing/' | relative_url }}">Voice Turing Test</a></h3><p>A public WeChat Mini Program game and the data-collection platform for an ICLR 2026 study. I led product design and full-stack development; it reached 1,000+ users and collected 5,000+ valid records in its first month.</p></div>
-      <time>2025</time>
-    </article>
-    <article>
-      <div><h3><a href="{{ '/projects/telos/' | relative_url }}">Telos</a></h3><p>A goal-conditioned education product that turns fragmented sources into structured, multimodal, ready-to-learn courses.</p></div>
-      <time>2026 – Present</time>
-    </article>
-    <article>
-      <div><h3><a href="{{ '/projects/taskflow/' | relative_url }}">TaskFlow AI</a></h3><p>A visual workspace for tasks, dependencies, deadlines, and human-in-the-loop agent workflows.</p></div>
-      <time>2026</time>
-    </article>
-  </div>
+  <article class="publication-row publication-row--compact">
+    <a class="publication-row__preview publication-row__preview--phones" href="{{ '/projects/voice-turing/' | relative_url }}">
+      <img src="{{ '/images/turing2.png' | relative_url }}" alt="Voice Turing Test home screen">
+      <img src="{{ '/images/turing4.png' | relative_url }}" alt="Voice Turing Test judgment screen">
+      <img src="{{ '/images/turing5.png' | relative_url }}" alt="Voice Turing Test result screen">
+    </a>
+    <div class="publication-row__body">
+      <h3><a href="{{ '/projects/voice-turing/' | relative_url }}">Voice Turing Test</a></h3>
+      <p>A public WeChat Mini Program game and the data-collection platform for an ICLR 2026 study. I led product design and full-stack development; it reached 1,000+ users and collected 5,000+ valid records in its first month.</p>
+      <p class="publication-venue">Full-stack development lead · 2025</p>
+      <div class="publication-links">
+        <a href="https://openreview.net/forum?id=Pv5l6cvfno">ICLR 2026 Paper</a>
+        <a href="{{ '/projects/voice-turing/' | relative_url }}">Project Page</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="publication-row publication-row--compact">
+    <a class="publication-row__preview" href="{{ '/projects/telos/' | relative_url }}">
+      <img src="{{ '/images/telos.png' | relative_url }}" alt="Telos learning workspace preview">
+    </a>
+    <div class="publication-row__body">
+      <h3><a href="{{ '/projects/telos/' | relative_url }}">Telos: AI-Generated, Ready-to-Learn Courses</a></h3>
+      <p>A goal-conditioned education product that turns fragmented sources into structured, multimodal, ready-to-learn courses.</p>
+      <p class="publication-venue">Independent full-stack project · 2026 – Present</p>
+      <div class="publication-links">
+        <a href="https://github.com/GaryYang12345/Telos">Code</a>
+        <a href="{{ '/projects/telos/' | relative_url }}">Project Page</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="publication-row publication-row--compact">
+    <a class="publication-row__preview" href="{{ '/projects/taskflow/' | relative_url }}">
+      <img src="{{ '/images/taskflowai.png' | relative_url }}" alt="TaskFlow AI workspace preview">
+    </a>
+    <div class="publication-row__body">
+      <h3><a href="{{ '/projects/taskflow/' | relative_url }}">TaskFlow AI: Visual Task Orchestration</a></h3>
+      <p>A visual workspace for tasks, dependencies, deadlines, and human-in-the-loop agent workflows.</p>
+      <p class="publication-venue">Independent full-stack project · 2026</p>
+      <div class="publication-links">
+        <a href="https://github.com/GaryYang12345/TaskFlowAI">Code</a>
+        <a href="{{ '/projects/taskflow/' | relative_url }}">Project Page</a>
+      </div>
+    </div>
+  </article>
 </section>
 
 <section id="awards" class="home-section simple-list">
@@ -145,7 +172,7 @@ redirect_from:
 </section>
 
 <section id="services" class="home-section simple-list">
-  <h2>Teaching</h2>
+  <h2>Services</h2>
   <ul>
     <li><span>Teaching Assistant, MAT1001 Calculus I, CUHK-Shenzhen</span><time>2025</time></li>
   </ul>

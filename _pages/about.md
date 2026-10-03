@@ -25,7 +25,7 @@ redirect_from:
 
 <section id="research" class="home-section">
   <h2>Research</h2>
-  <p>My current work studies how agents can improve from their own interaction traces. In <a href="{{ '/projects/gui-harvest/' | relative_url }}">GUI-HARVEST</a>, I explore how repeated multimodal execution evidence can be translated into systematic, validated changes to a GUI agent's inference-time harness.</p>
+  <p>More recently, I have become particularly interested in <strong>self-improving agentic systems and recursive self-improvement (RSI)</strong>, especially how agents can turn their own execution traces, failures, and feedback into reliable improvements in future behavior. My current work, <a href="{{ '/projects/gui-harvest/' | relative_url }}">GUI-HARVEST</a>, studies how repeated multimodal execution evidence can drive systematic, validated changes to a GUI agent's inference-time harness.</p>
 </section>
 
 <section class="home-section publications-section">
@@ -84,7 +84,7 @@ redirect_from:
   <div class="resume-list">
     <article class="resume-row">
       <img src="{{ '/images/bigdata.png' | relative_url }}" alt="Shenzhen Research Institute of Big Data logo" class="institution-logo institution-logo--sribd">
-      <div><h3>Research Assistant, Shenzhen Research Institute of Big Data</h3><p>Advisor: <a href="https://daizhongxiang.github.io/index.html">Prof. Zhongxiang Dai</a></p><time>Jul. 2026 – Present</time></div>
+      <div><h3>Shenzhen Research Institute of Big Data</h3><p>Research Assistant · Advisor: <a href="https://daizhongxiang.github.io/index.html">Prof. Zhongxiang Dai</a></p><time>Jul. 2026 – Present</time></div>
     </article>
     <article class="resume-row">
       <img src="{{ '/images/cloud-computing-center.png' | relative_url }}" alt="Cloud Computing Center, Chinese Academy of Sciences logo" class="institution-logo">

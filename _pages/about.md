@@ -10,7 +10,7 @@ redirect_from:
 
 <header class="intro">
   <p>Hi, I am <strong>Geyi Yang</strong> (杨戈易), also known as <strong>Gary</strong>. I am an undergraduate researcher in Computer Engineering at <a href="https://www.cuhk.edu.cn/en"><strong>The Chinese University of Hong Kong, Shenzhen</strong></a> (CUHK-Shenzhen), and was a GLOBE Program visiting student in Computer Science at <a href="https://www.berkeley.edu/"><strong>UC Berkeley</strong></a> in Spring 2026.</p>
-  <p>I am broadly interested in <strong>LLM-based agents, GUI agents, self-improving agentic systems, harness optimization, and retrieval-augmented generation (RAG)</strong>. My current research, <a class="intro-jump" href="{{ '/projects/harnessgrad/' | relative_url }}"><strong>GUI-HarnessGrad</strong></a>, explores how execution feedback can be used to systematically improve a GUI agent’s inference-time harness. My previous work also covers <strong>LLM post-training and dataset construction</strong>.</p>
+  <p>I am broadly interested in <strong>LLM-based agents, GUI agents, self-improving agentic systems, harness optimization, and retrieval-augmented generation (RAG)</strong>. My current research, <a class="intro-jump" href="{{ '/projects/gui-harvest/' | relative_url }}"><strong>GUI-HARVEST</strong></a>, explores how repeated multimodal execution evidence can drive systematic, validated improvements to a GUI agent’s inference-time harness. My previous work also covers <strong>LLM post-training and dataset construction</strong>.</p>
   <p>Alongside research, I develop end-to-end AI products, including the <a class="intro-jump" href="{{ '/projects/voice-turing/' | relative_url }}"><strong>Voice Turing Test</strong></a> and <a class="intro-jump" href="{{ '/projects/telos/' | relative_url }}"><strong>Telos</strong></a>. I was the modeling and programming lead for an <a class="intro-jump" href="{{ '/projects/mcm-2026/' | relative_url }}"><strong>MCM 2026 Finalist team (top 1%)</strong></a> and a Teaching Assistant for Calculus I. Outside computing, I enjoy photography, piano, drawing, and hiking.</p>
   <p class="intro__actions">
     <a class="cv-download" href="{{ '/files/GeyiYang_CV.pdf' | relative_url }}">Download CV</a>
@@ -22,14 +22,18 @@ redirect_from:
   <h2>Research Projects</h2>
   <div class="project-list">
     <article class="project-entry">
-      <a class="project-card-link" href="{{ '/projects/harnessgrad/' | relative_url }}" aria-label="Open GUI-HarnessGrad details"></a>
+      <a class="project-card-link" href="{{ '/projects/gui-harvest/' | relative_url }}" aria-label="Open GUI-HARVEST details"></a>
       <div class="project-art">
-        <img src="images/harnessgrad.png" alt="">
+        <img src="images/projects/gui-harvest/workflow.png" alt="">
       </div>
       <div class="project-entry__body">
-        <div class="project-entry__meta">GUI agents · Jul. 2026 – Present</div>
-        <h3>GUI-HarnessGrad: Automated Harness Optimization for GUI Agents</h3>
-        <p>Develops a failure-driven optimization algorithm for improving the inference-time harness around a fixed GUI-agent model. On OSWorld (361 tasks, 15-step budget), the optimized harness raised Qwen3-VL-32B-Instruct from 37.67% to 50.95% (+13.28 points).</p>
+        <div class="project-entry__meta">Self-improving GUI agents · arXiv preprint · Oct. 2026</div>
+        <h3>GUI-HARVEST: Self-Improving GUI Agents through Evidence-Driven Harness Evolution</h3>
+        <p>An automatic optimizer that converts repeated multimodal executions into validated harness code changes while keeping model weights frozen. It improves held-out OSWorld-Verified performance across six backbones; Qwen3-VL-32B-Instruct gains 12.33 points on the full suite.</p>
+        <div class="project-actions">
+          <a class="brand-link" href="https://arxiv.org/abs/2610.00948v1">arXiv</a>
+          <a class="brand-link" href="https://github.com/GaryYang12345/GUI-HARVEST"><i class="fab fa-github" aria-hidden="true"></i>Code</a>
+        </div>
       </div>
     </article>
 
@@ -76,9 +80,9 @@ redirect_from:
   <div class="experience-timeline">
     <article class="experience-row">
       <span class="experience-marker" aria-hidden="true"></span>
-      <img src="images/cuhksz.png" alt="CUHK-Shenzhen emblem" class="institution-logo institution-logo--cuhk">
+      <img src="images/bigdata.png" alt="Shenzhen Research Institute of Big Data logo" class="institution-logo institution-logo--sribd">
       <div class="experience-row__copy">
-        <h3>The Chinese University of Hong Kong, Shenzhen</h3>
+        <h3>Shenzhen Research Institute of Big Data</h3>
         <p>Research Assistant · advised by <a href="https://daizhongxiang.github.io/index.html">Prof. Zhongxiang Dai</a></p>
         <time>Jul. 2026 – Present</time>
       </div>
@@ -88,7 +92,7 @@ redirect_from:
       <img src="images/cloud-computing-center.png" alt="Cloud Computing Center, Chinese Academy of Sciences emblem" class="institution-logo institution-logo--round">
       <div class="experience-row__copy">
         <h3>Cloud Computing Center, Chinese Academy of Sciences</h3>
-        <p>Research Intern · Agentic-RAG chatbot for smart mining</p>
+        <p>Agentic-RAG chatbot for smart mining</p>
         <time>Mar. 2025 – Jun. 2025</time>
       </div>
     </article>
@@ -97,7 +101,7 @@ redirect_from:
       <img src="images/logo-airs.png" alt="AIRS logo" class="institution-logo institution-logo--airs">
       <div class="experience-row__copy">
         <h3>Shenzhen Institute of Artificial Intelligence and Robotics for Society</h3>
-        <p>Research Intern · Digital human reconstruction</p>
+        <p>Multimodal digital human reconstruction</p>
         <time>Sep. 2023 – Jun. 2024</time>
       </div>
     </article>

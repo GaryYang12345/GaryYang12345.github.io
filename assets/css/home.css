@@ -159,6 +159,11 @@ body {
   border-radius: 50%;
 }
 
+.institution-logo--sribd {
+  height: 34px;
+  width: 76px;
+}
+
 .education-row h3,
 .experience-row h3,
 .project-entry h3 {
@@ -779,6 +784,11 @@ div.markdown-body a:focus-visible {
   .institution-logo--airs {
     height: 22px;
     width: 58px;
+  }
+
+  .institution-logo--sribd {
+    height: 30px;
+    width: 64px;
   }
 
   .project-entry {

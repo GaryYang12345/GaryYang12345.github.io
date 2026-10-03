@@ -1,32 +1,47 @@
 ---
-permalink: /projects/harnessgrad/
-title: "GUI-HarnessGrad"
+permalink: /projects/gui-harvest/
+title: "GUI-HARVEST"
 author_profile: true
 comments: false
 share: false
 related: false
 read_time: false
+redirect_from:
+  - /projects/harnessgrad/
 stylesheets:
   - /assets/css/home.css
 ---
 
-<div class="project-detail">
-  <p class="section-kicker">GUI agents · Work in progress · Targeting ICLR 2027</p>
-  <p class="paper-meta">Research Assistant at CUHK-Shenzhen · advised by Prof. Zhongxiang Dai</p>
+<article class="project-detail">
+  <p class="section-kicker">Self-improving GUI agents · arXiv preprint · October 2026</p>
+  <p class="paper-meta">First author · Research Assistant at Shenzhen Research Institute of Big Data · advised by Prof. Zhongxiang Dai</p>
   <div class="paper-actions">
-    <a class="brand-link" href="https://osworld-v1.xlang.ai/#benchmark">OSWorld leaderboard</a>
-    <a class="brand-link" href="{{ '/' | relative_url }}#research">Back</a>
+    <a class="brand-link" href="https://arxiv.org/abs/2610.00948v1">arXiv paper</a>
+    <a class="brand-link" href="https://github.com/GaryYang12345/GUI-HARVEST"><i class="fab fa-github" aria-hidden="true"></i>Code</a>
+    <a class="brand-link" href="{{ '/' | relative_url }}#research">Back to projects</a>
   </div>
 
-  <h2>Research question</h2>
-  <p>GUI-agent performance depends not only on the underlying model, but also on the harness that surrounds it: prompts, action interfaces, execution feedback, termination rules, recovery logic, and other control components. GUI-HarnessGrad asks whether this harness can be improved automatically from rollout failures while the underlying model remains fixed.</p>
+  <p class="article-deck">GUI-HARVEST enables a frozen GUI agent to improve its own executable runtime harness from repeated multimodal executions, without updating the backbone model’s weights.</p>
 
-  <h2>Method</h2>
-  <p>GUI-HarnessGrad is a failure-driven harness optimization algorithm, not a proposal for one manually engineered harness. The system collects trajectories, screenshots, execution feedback, and rewards; identifies recurring failure modes; attributes them to editable harness components; proposes candidate changes; and uses paired retesting with retain-or-rollback decisions to preserve only validated updates. The broader goal is to learn which harness configuration best supports a given model under explicit accuracy, step, latency, and cost budgets.</p>
+  <figure class="article-hero">
+    <img src="{{ '/images/projects/gui-harvest/workflow.png' | relative_url }}" alt="GUI-HARVEST evidence-driven self-improvement loop for frozen GUI agents">
+    <figcaption>Repeated GUI executions support evidence analysis, cross-task failure clustering, bounded harness edits, and score-plus-behavior validation before an update is promoted.</figcaption>
+  </figure>
 
-  <h2>Current result</h2>
-  <p class="result-callout">On the 361-task OSWorld evaluation with a 15-step budget, the final optimized harness improved a fixed Qwen3-VL-32B-Instruct agent from <strong>37.67%</strong> to <strong>50.95%</strong>: a gain of 13.28 percentage points, or 35.2% relative. This score is higher than reported OSWorld leaderboard results for Claude 4 Sonnet, o3, and several specialized GUI-agent models, even though many listed systems use larger step budgets.</p>
+  <div class="metric-strip" aria-label="GUI-HARVEST results">
+    <div><strong>6</strong><span>backbones improved</span></div>
+    <div><strong>+12.33</strong><span>Qwen full-suite points</span></div>
+    <div><strong>+13.87</strong><span>GPT-5 transfer points</span></div>
+  </div>
 
-  <h2>Status and scope</h2>
-  <p>The experiments and paper are ongoing, with a submission to ICLR 2027 planned. The current score is evidence that the optimization procedure can discover a substantially stronger harness; the research contribution is the optimization algorithm and its evaluation methodology, rather than the final harness as a fixed artifact. Additional models, repeated runs, ablations, and transfer experiments remain in progress.</p>
-</div>
+  <h2>Why GUI harness evolution is different</h2>
+  <p>A GUI harness controls how observations are assembled, actions are executed, and verification, recovery, and termination are handled. Optimizing it requires more than reading textual traces: the system must reconcile model intent with visible interface changes, diagnose failures despite run-to-run execution variability, and turn task-local evidence into reusable runtime changes.</p>
+
+  <h2>Evidence-driven self-improvement</h2>
+  <p>GUI-HARVEST aligns model outputs and executed actions with before-and-after screenshots, then compares repeated runs of each task as a joint evidence unit. Verified findings are consolidated into recurring cross-task failure patterns. A Harness Engineer maps those patterns to bounded source-code edits and records predicted behavioral effects before evaluation; a Validator promotes an edit only when repeated executions pass both score and behavior checks.</p>
+
+  <h2>Results and transfer</h2>
+  <p>On OSWorld-Verified, GUI-HARVEST produces consistent held-out gains across six general-purpose open, GUI-specialized open, and proprietary backbones. With Qwen3-VL-32B-Instruct at a 15-step budget, the full-suite score rises from 38.61% to 50.94% (+12.33 points). The frozen OSWorld-derived harness also transfers to WindowsAgentArena without further optimization, improving GPT-5 from 50.88% to 64.75% (+13.87 points) at 50 steps.</p>
+
+  <p class="result-callout">The contribution is not a single hand-designed harness. It is an evidence-driven optimization procedure that lets frozen GUI agents convert their own repeated executions into validated, reusable runtime improvements.</p>
+</article>

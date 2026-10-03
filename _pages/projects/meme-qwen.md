@@ -1,7 +1,7 @@
 ---
 permalink: /projects/meme-qwen/
 title: "Meme-Qwen-7B-Instruct"
-author_profile: true
+author_profile: false
 comments: false
 share: false
 related: false

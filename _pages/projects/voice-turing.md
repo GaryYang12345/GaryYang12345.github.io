@@ -1,7 +1,7 @@
 ---
 permalink: /projects/voice-turing/
 title: "Voice Turing Test"
-author_profile: true
+author_profile: false
 comments: false
 share: false
 related: false

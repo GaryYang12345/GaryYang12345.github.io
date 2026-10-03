@@ -1,7 +1,7 @@
 ---
 permalink: /projects/taskflow/
 title: "TaskFlow AI"
-author_profile: true
+author_profile: false
 comments: false
 share: false
 related: false

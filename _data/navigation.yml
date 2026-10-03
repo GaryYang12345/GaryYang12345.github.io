@@ -1,23 +1,14 @@
 # main links links
 
 main:
+  - title: "About"
+    url: "/"
+
   - title: "Research"
     url: "/#research"
 
-  - title: "Experience"
-    url: "/#experience"
-
-  - title: "Education"
-    url: "/#education"
-
   - title: "Projects"
     url: "/#development"
-
-  - title: "Awards"
-    url: "/#awards"
-
-  - title: "Services"
-    url: "/#services"
 
   # - title: "Talks"
   #   url: "/#talks"

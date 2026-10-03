@@ -1,7 +1,7 @@
 ---
 permalink: /projects/telos/
 title: "Telos"
-author_profile: true
+author_profile: false
 comments: false
 share: false
 related: false

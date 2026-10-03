@@ -1,7 +1,7 @@
 ---
 permalink: /projects/gui-harvest/
 title: "GUI-HARVEST"
-author_profile: true
+author_profile: false
 comments: false
 share: false
 related: false
@@ -13,7 +13,8 @@ stylesheets:
 ---
 
 <article class="project-detail">
-  <p class="section-kicker">Self-improving GUI agents · arXiv preprint · October 2026</p>
+  <p class="section-kicker">Self-improving GUI agents · Under review at ICLR 2027 · arXiv preprint</p>
+  <p class="publication-authors"><strong>Geyi Yang</strong>, Zikun Qu, Xiang Li, Zhiyong Wang, Min Zhang, Shipei Zeng, and Zhongxiang Dai</p>
   <p class="paper-meta">First author · Research Assistant at Shenzhen Research Institute of Big Data · advised by Prof. Zhongxiang Dai</p>
   <div class="paper-actions">
     <a class="brand-link" href="https://arxiv.org/abs/2610.00948v1">arXiv paper</a>

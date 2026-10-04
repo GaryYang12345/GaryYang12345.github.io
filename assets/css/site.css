@@ -99,7 +99,7 @@ a:focus-visible {
   animation: none;
   margin: 0 auto;
   max-width: 860px;
-  padding: 4.9rem 1.25rem 3rem;
+  padding: 2rem 1.25rem 3rem;
 }
 
 .page {
@@ -693,7 +693,7 @@ a:focus-visible {
   }
 
   #main {
-    padding-top: 4.45rem;
+    padding-top: 1.5rem;
   }
 
   .profile-intro__photo {

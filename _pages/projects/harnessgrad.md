@@ -1,15 +1,8 @@
 ---
 permalink: /projects/gui-harvest/
 title: "GUI-HARVEST"
-author_profile: false
-comments: false
-share: false
-related: false
-read_time: false
 redirect_from:
   - /projects/harnessgrad/
-stylesheets:
-  - /assets/css/home.css
 ---
 
 <article class="project-detail">

@@ -1,13 +1,6 @@
 ---
 permalink: /projects/telos/
 title: "Telos"
-author_profile: false
-comments: false
-share: false
-related: false
-read_time: false
-stylesheets:
-  - /assets/css/home.css
 ---
 
 <article class="project-detail">

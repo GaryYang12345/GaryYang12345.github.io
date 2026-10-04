@@ -1,8 +1,5 @@
 ---
 permalink: /
-author_profile: false
-stylesheets:
-  - /assets/css/home.css
 redirect_from:
   - /about/
   - /about.html

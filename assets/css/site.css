@@ -27,9 +27,7 @@ a {
 }
 
 a,
-.page__content a,
-a:visited,
-.page__content a:visited {
+.page__content a {
   color: var(--accent);
   text-decoration: none;
 }
@@ -318,7 +316,8 @@ a:focus-visible {
   margin: 0;
 }
 
-.publication-row__body h3 a {
+.publication-row__body h3 a,
+.publication-row__body h3 a:visited {
   color: var(--text);
 }
 

@@ -37,6 +37,7 @@ redirect_from:
       <p class="publication-venue"><em>Under review at ICLR 2027</em> · arXiv, 2026</p>
       <div class="publication-links">
         <a href="https://arxiv.org/abs/2610.00948v1">Paper</a>
+        <a href="https://huggingface.co/papers/2610.00948">HF Paper</a>
         <a href="https://github.com/GaryYang12345/GUI-HARVEST">Code</a>
         <a href="{{ '/projects/gui-harvest/' | relative_url }}">Project Page</a>
       </div>

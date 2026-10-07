@@ -11,6 +11,7 @@ redirect_from:
   <p class="paper-meta">First author · Research Assistant at Shenzhen Research Institute of Big Data · advised by Prof. Zhongxiang Dai</p>
   <div class="paper-actions">
     <a class="brand-link" href="https://arxiv.org/abs/2610.00948v1">arXiv paper</a>
+    <a class="brand-link brand-link--hf" href="https://huggingface.co/papers/2610.00948"><img src="{{ '/images/hf-icon.svg' | relative_url }}" alt="" aria-hidden="true">HF Paper</a>
     <a class="brand-link" href="https://github.com/GaryYang12345/GUI-HARVEST"><i class="fab fa-github" aria-hidden="true"></i>Code</a>
     <a class="brand-link" href="{{ '/' | relative_url }}#research">Back to projects</a>
   </div>

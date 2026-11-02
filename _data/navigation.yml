@@ -6,7 +6,7 @@ main:
     url: "/#research"
 
   - title: "Projects"
-    url: "/#development"
+    url: "/#products"
 
   # - title: "Talks"
   #   url: "/#talks"

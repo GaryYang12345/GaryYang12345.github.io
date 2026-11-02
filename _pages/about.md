@@ -109,6 +109,26 @@ redirect_from:
   </div>
 </section>
 
+<section id="products" class="home-section">
+  <h2>Products</h2>
+  <article class="publication-row">
+    <a class="publication-row__preview" href="{{ '/projects/stashdock/' | relative_url }}">
+      <img src="{{ '/images/projects/stashdock/brand.png' | relative_url }}" alt="StashDock">
+    </a>
+    <div class="publication-row__body">
+      <h3><a href="{{ '/projects/stashdock/' | relative_url }}">StashDock: Your context, ready for any AI</a></h3>
+      <p>I created and shipped a local-first, open-source context library that brings links, files, prompts, and rules into one place. Windows/macOS desktop apps, a Chrome extension, and a ChatGPT sidebar make saved context reusable across AI conversations; MCP tools and a skill let AI help retrieve and organize it.</p>
+      <p class="publication-venue">Creator &amp; full-stack developer · Product design, engineering &amp; release · Oct. 2026 – Present</p>
+      <div class="publication-links">
+        <a href="https://stashdock.app">Website</a>
+        <a href="https://github.com/StashDock/StashDock">GitHub</a>
+        <a href="{{ '/projects/stashdock/' | relative_url }}">Product Story</a>
+      </div>
+    </div>
+  </article>
+  <!-- Add verified adoption or launch milestones when available. -->
+</section>
+
 <section id="development" class="home-section">
   <h2>Development Projects</h2>
   <article class="publication-row publication-row--compact">

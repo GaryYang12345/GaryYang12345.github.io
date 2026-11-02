@@ -461,6 +461,14 @@ a:focus-visible {
 }
 
 /* Project articles */
+.product-inline-mark {
+  display: inline-block;
+  height: 1em;
+  margin-right: 0.4em;
+  vertical-align: -0.1em;
+  width: auto;
+}
+
 .project-detail {
   color: #3f4247;
   max-width: 820px;

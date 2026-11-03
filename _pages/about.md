@@ -21,15 +21,6 @@ redirect_from:
   </div>
 </header>
 
-<section id="news" class="home-section simple-list">
-  <h2>News</h2>
-  <ul>
-    <li><span>Launched <a href="https://stashdock.app">StashDock</a>, my AI-native, visualized personal context library for any AI.</span><time datetime="2026-10">Oct. 2026</time></li>
-    <li><span>Our preprint <a href="https://arxiv.org/abs/2610.00948v1">GUI-HARVEST</a> is now on arXiv, studying self-improving GUI agents through evidence-driven harness evolution.</span><time datetime="2026-10">Oct. 2026</time></li>
-  </ul>
-  <!-- Add future updates above, using verified event dates. -->
-</section>
-
 <section id="research" class="home-section">
   <h2>Research</h2>
   <p>More recently, I have become particularly interested in <strong>self-improving agentic systems</strong>, especially how agents can turn their own execution traces, failures, and feedback into reliable improvements in future behavior. My current work, <a href="{{ '/projects/gui-harvest/' | relative_url }}">GUI-HARVEST</a>, studies how repeated multimodal execution evidence can drive systematic, validated changes to a GUI agent's inference-time harness.</p>

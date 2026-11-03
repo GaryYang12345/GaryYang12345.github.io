@@ -186,7 +186,7 @@ redirect_from:
     <li><span>COMAP Mathematical Contest in Modeling, Finalist (top 1%)</span><time>2026</time></li>
     <li><span>China International College Students' Innovation Competition, Bronze Award</span><time>2025</time></li>
     <li><span>Dean's List, CUHK-Shenzhen</span><time>2023–2026</time></li>
-    <li><span>Academic Performance Scholarship, CUHK-Shenzhen</span><time>2023–2024</time></li>
+    <li><span>Academic Performance Scholarship, CUHK-Shenzhen (top 8%)</span><time>2023–2024</time></li>
   </ul>
 </section>
 

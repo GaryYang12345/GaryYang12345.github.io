@@ -11,7 +11,7 @@ redirect_from:
     <h1>Geyi Yang <span>杨戈易</span></h1>
     <p>Hi, I am Geyi Yang, also known as Gary. I am an undergraduate researcher in Computer Engineering at <a href="https://www.cuhk.edu.cn/en">The Chinese University of Hong Kong, Shenzhen</a> (CUHK-Shenzhen), and was a GLOBE Program visiting student in Computer Science at <a href="https://www.berkeley.edu/">UC Berkeley</a> in Spring 2026. I am currently advised by <a href="https://daizhongxiang.github.io/index.html">Prof. Zhongxiang Dai</a>.</p>
     <p>I am broadly interested in <strong>LLM-based agents, GUI agents, self-improving agentic systems, harness optimization, and retrieval-augmented generation (RAG)</strong>. My previous work also covers LLM post-training and dataset construction.</p>
-    <p>Alongside research, I launched <a href="https://stashdock.app">StashDock</a>, an AI-native, visualized personal context library for any AI.</p>
+    <p>Alongside research, I launched a product called <a href="https://stashdock.app">StashDock</a>, an AI-native, visualized personal context library for any AI.</p>
     <nav class="profile-links" aria-label="Profile links">
       <a href="mailto:123090721@link.cuhk.edu.cn"><i class="fas fa-envelope" aria-hidden="true"></i>Email</a>
       <a href="https://github.com/GaryYang12345"><i class="fab fa-github" aria-hidden="true"></i>GitHub</a>

@@ -116,8 +116,8 @@ redirect_from:
       <img src="{{ '/images/projects/stashdock/brand.png' | relative_url }}" alt="StashDock">
     </a>
     <div class="publication-row__body">
-      <h3><a href="{{ '/projects/stashdock/' | relative_url }}">StashDock: Your context, ready for any AI</a></h3>
-      <p>I created and shipped a local-first, open-source context library that brings links, files, prompts, and rules into one place. Windows/macOS desktop apps, a Chrome extension, and a ChatGPT sidebar make saved context reusable across AI conversations; MCP tools and a skill let AI help retrieve and organize it.</p>
+      <h3><a href="{{ '/projects/stashdock/' | relative_url }}">StashDock: A Personal Context Library for Any AI</a></h3>
+      <p>An AI-native personal context library with a visual panel for links, files, prompts, and rules. A floating desktop folder and a ChatGPT sidebar keep references within reach: find, select, and copy, drag, or add them to a conversation. MCP and Skills let AI help find, organize, and save context for reuse.</p>
       <p class="publication-venue">Creator &amp; full-stack developer · Product design, engineering &amp; release · Oct. 2026 – Present</p>
       <div class="publication-links">
         <a href="https://stashdock.app">Website</a>

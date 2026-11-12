@@ -144,7 +144,6 @@ redirect_from:
       <p class="publication-venue">Full-stack development lead · 2025</p>
       <div class="publication-links">
         <a href="https://openreview.net/forum?id=Pv5l6cvfno">ICLR 2026 Paper</a>
-        <a href="https://github.com/CUHKSZ-AIA/Turing-Challenge">GitHub</a>
         <a href="{{ '/projects/voice-turing/' | relative_url }}">Project Page</a>
       </div>
     </div>

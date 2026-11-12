@@ -8,6 +8,7 @@ title: "Voice Turing Test"
   <p class="paper-meta">WeChat Mini Program · public game, product, and ICLR 2026 data platform</p>
   <div class="paper-actions">
     <a class="brand-link" href="https://openreview.net/forum?id=Pv5l6cvfno">ICLR 2026 paper</a>
+    <a class="brand-link" href="https://github.com/CUHKSZ-AIA/Turing-Challenge"><i class="fab fa-github" aria-hidden="true"></i>GitHub</a>
     <a class="brand-link" href="{{ '/' | relative_url }}#development">Back to projects</a>
   </div>
 

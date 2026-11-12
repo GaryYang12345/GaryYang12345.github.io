@@ -83,11 +83,11 @@ redirect_from:
   <div class="resume-list">
     <article class="resume-row">
       <img src="{{ '/images/bigdata.png' | relative_url }}" alt="Shenzhen Research Institute of Big Data logo" class="institution-logo institution-logo--sribd">
-      <div><h3>Shenzhen Research Institute of Big Data</h3><p>Research Assistant · Advisor: <a href="https://daizhongxiang.github.io/index.html">Prof. Zhongxiang Dai</a></p><time>Jul. 2026 – Present</time></div>
+      <div><h3>Shenzhen Research Institute of Big Data</h3><p>Research Assistant · Advisor: <a href="https://daizhongxiang.github.io/index.html">Prof. Zhongxiang Dai</a></p><time>Jun. 2026 – Sep. 2026</time></div>
     </article>
     <article class="resume-row">
-      <img src="{{ '/images/cloud-computing-center.png' | relative_url }}" alt="Cloud Computing Center, Chinese Academy of Sciences logo" class="institution-logo">
-      <div><h3>Cloud Computing Center, Chinese Academy of Sciences</h3><p>Domain-specific Agentic RAG for mining-blasting QA</p><time>Mar. 2025 – Jun. 2025</time></div>
+      <img src="{{ '/images/cloud-computing-center.png' | relative_url }}" alt="Dongguan Zhongke Institute of Cloud Computing logo" class="institution-logo">
+      <div><h3>Dongguan Zhongke Institute of Cloud Computing</h3><p>Domain-specific Agentic RAG for mining-blasting QA</p><time>Mar. 2025 – Jun. 2025</time></div>
     </article>
     <article class="resume-row">
       <img src="{{ '/images/logo-airs.png' | relative_url }}" alt="AIRS logo" class="institution-logo institution-logo--airs">

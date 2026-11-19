@@ -8,7 +8,7 @@ title: "TaskFlow AI"
   <p class="paper-meta">Visual task orchestration with human-in-the-loop automation</p>
   <div class="paper-actions">
     <a class="brand-link" href="https://github.com/GaryYang12345/TaskFlowAI"><i class="fab fa-github" aria-hidden="true"></i>GitHub</a>
-    <a class="brand-link" href="{{ '/' | relative_url }}#development">Back to projects</a>
+    <a class="brand-link" href="{{ '/' | relative_url }}#projects">Back to projects</a>
   </div>
 
   <p class="article-deck">TaskFlow AI turns personal work into a visual system of tasks, dependencies, deadlines, and executable sub-workflows. It combines a node-based workspace with an orchestration boundary for OpenClaw and Lark.</p>

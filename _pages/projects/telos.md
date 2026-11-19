@@ -8,7 +8,7 @@ title: "Telos"
   <p class="paper-meta">Goal-conditioned, ready-to-learn course generation</p>
   <div class="paper-actions">
     <a class="brand-link" href="https://github.com/GaryYang12345/Telos"><i class="fab fa-github" aria-hidden="true"></i>GitHub</a>
-    <a class="brand-link" href="{{ '/' | relative_url }}#development">Back to projects</a>
+    <a class="brand-link" href="{{ '/' | relative_url }}#projects">Back to projects</a>
   </div>
 
   <p class="article-deck">Telos explores a different role for AI in education: not another answer box or reading-list generator, but a teaching-design system that turns a learning goal and fragmented sources into a course that can be opened and studied immediately.</p>

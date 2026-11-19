@@ -46,38 +46,6 @@ redirect_from:
   </article>
 </section>
 
-<section class="home-section publications-section">
-  <h2>Selected Research</h2>
-  <article class="publication-row publication-row--compact">
-    <a class="publication-row__preview" href="{{ '/projects/meme-qwen/' | relative_url }}">
-      <img src="{{ '/images/Meme-Qwen.png' | relative_url }}" alt="Meme-Qwen project preview">
-    </a>
-    <div class="publication-row__body">
-      <h3><a href="{{ '/projects/meme-qwen/' | relative_url }}">Meme-Qwen-7B-Instruct</a></h3>
-      <p>Built the full data-to-model pipeline for a Chinese internet-meme conversational model, including 30,000+ collected pairs, an 8,680-example open SFT dataset, and LoRA plus DPO training.</p>
-      <div class="publication-links">
-        <a href="https://huggingface.co/GaryYang123/Meme-Qwen-7B-Instruct">Model</a>
-        <a href="https://huggingface.co/datasets/GaryYang123/zh-meme-sft-8k">Dataset</a>
-        <a href="{{ '/projects/meme-qwen/' | relative_url }}">Project Page</a>
-      </div>
-    </div>
-  </article>
-
-  <article class="publication-row publication-row--compact">
-    <a class="publication-row__preview" href="{{ '/projects/mcm-2026/' | relative_url }}">
-      <img src="{{ '/images/MCM-flowchart.png' | relative_url }}" alt="MCM lunar logistics workflow">
-    </a>
-    <div class="publication-row__body">
-      <h3><a href="{{ '/projects/mcm-2026/' | relative_url }}">Dynamic Hybrid Lunar Logistics Optimization</a></h3>
-      <p>Led modeling and programming for an MCM 2026 Finalist team (top 1%), combining dynamic logistics simulation, Differential Evolution, Monte Carlo analysis, and sensitivity analysis.</p>
-      <div class="publication-links">
-        <a href="{{ '/files/Paper.pdf' | relative_url }}">Paper</a>
-        <a href="{{ '/projects/mcm-2026/' | relative_url }}">Project Page</a>
-      </div>
-    </div>
-  </article>
-</section>
-
 <section id="experience" class="home-section">
   <h2>Experience</h2>
   <div class="resume-list">
@@ -113,25 +81,60 @@ redirect_from:
 <section id="products" class="home-section">
   <h2>Products</h2>
   <article class="publication-row">
-    <a class="publication-row__preview" href="{{ '/projects/stashdock/' | relative_url }}">
-      <img src="{{ '/images/projects/stashdock/brand.png' | relative_url }}" alt="StashDock">
+    <a class="publication-row__preview publication-row__preview--cover" href="{{ '/projects/stashdock/' | relative_url }}">
+      <img src="{{ '/images/projects/stashdock/hero.png' | relative_url }}" alt="StashDock — Your context library for any AI" width="1920" height="1080">
     </a>
     <div class="publication-row__body">
-      <h3><a href="{{ '/projects/stashdock/' | relative_url }}">StashDock: Your Context Library for Any AI</a></h3>
-      <p>StashDock is an AI-native, visualized personal context library for any AI. It brings scattered links, files, prompts, and rules into a visual collection of reference cards that users can browse, organize, and bring directly into AI conversations.</p>
-      <p class="publication-venue">Creator &amp; full-stack developer · Product design, engineering &amp; release · Oct. 2026 – Present</p>
+      <div class="product-heading">
+        <h3 class="product-title"><a href="{{ '/projects/stashdock/' | relative_url }}"><img src="{{ '/images/projects/stashdock/icon.svg' | relative_url }}" alt="" width="20" height="16"><span>StashDock: Your Context Library for Any AI</span></a></h3>
+        <div class="product-badges" aria-label="StashDock milestones">
+          <a href="https://github.com/StashDock/StashDock" aria-label="StashDock on GitHub, 500+ stars"><img src="{{ '/images/projects/stashdock/github-stars.svg' | relative_url }}" alt="GitHub stars: 500+" width="104" height="20"></a>
+          <a href="https://betterlaunch.app/p/stashdock" aria-label="StashDock, featured on BetterLaunch"><img src="{{ '/images/projects/stashdock/betterlaunch-featured.svg' | relative_url }}" alt="Better Launch: Featured" width="172" height="20"></a>
+        </div>
+      </div>
+      <p>StashDock is an AI-native, visualized personal context library for any AI. It brings scattered links, files, and prompts into a visual collection of reference cards that users can browse, organize, and bring directly into AI conversations.</p>
+      <p class="publication-venue">Creator &amp; full-stack developer · Product design, engineering &amp; release · Sep. 2026 – Present</p>
       <div class="publication-links">
         <a href="https://stashdock.app">Website</a>
         <a href="https://github.com/StashDock/StashDock">GitHub</a>
+        <a href="https://stashdock.app/video">Film</a>
         <a href="{{ '/projects/stashdock/' | relative_url }}">Product Story</a>
       </div>
     </div>
   </article>
-  <!-- Add verified adoption or launch milestones when available. -->
 </section>
 
-<section id="development" class="home-section">
-  <h2>Development Projects</h2>
+<section id="projects" class="home-section">
+  <h2>Projects</h2>
+  <article class="publication-row publication-row--compact">
+    <a class="publication-row__preview" href="{{ '/projects/meme-qwen/' | relative_url }}">
+      <img src="{{ '/images/Meme-Qwen.png' | relative_url }}" alt="Meme-Qwen project preview">
+    </a>
+    <div class="publication-row__body">
+      <h3><a href="{{ '/projects/meme-qwen/' | relative_url }}">Meme-Qwen-7B-Instruct</a></h3>
+      <p>Built the full data-to-model pipeline for a Chinese internet-meme conversational model, including 30,000+ collected pairs, an 8,680-example open SFT dataset, and LoRA plus DPO training.</p>
+      <div class="publication-links">
+        <a href="https://huggingface.co/GaryYang123/Meme-Qwen-7B-Instruct">Model</a>
+        <a href="https://huggingface.co/datasets/GaryYang123/zh-meme-sft-8k">Dataset</a>
+        <a href="{{ '/projects/meme-qwen/' | relative_url }}">Project Page</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="publication-row publication-row--compact">
+    <a class="publication-row__preview" href="{{ '/projects/mcm-2026/' | relative_url }}">
+      <img src="{{ '/images/MCM-flowchart.png' | relative_url }}" alt="MCM lunar logistics workflow">
+    </a>
+    <div class="publication-row__body">
+      <h3><a href="{{ '/projects/mcm-2026/' | relative_url }}">Dynamic Hybrid Lunar Logistics Optimization</a></h3>
+      <p>Led modeling and programming for an MCM 2026 Finalist team (top 1%), combining dynamic logistics simulation, Differential Evolution, Monte Carlo analysis, and sensitivity analysis.</p>
+      <div class="publication-links">
+        <a href="{{ '/files/Paper.pdf' | relative_url }}">Paper</a>
+        <a href="{{ '/projects/mcm-2026/' | relative_url }}">Project Page</a>
+      </div>
+    </div>
+  </article>
+
   <article class="publication-row publication-row--compact">
     <a class="publication-row__preview publication-row__preview--phones" href="{{ '/projects/voice-turing/' | relative_url }}">
       <img src="{{ '/images/turing2.png' | relative_url }}" alt="Voice Turing Test home screen">

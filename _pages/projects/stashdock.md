@@ -5,19 +5,20 @@ excerpt: "An AI-native, visualized personal context library for any AI."
 ---
 
 <article class="project-detail">
-  <p class="section-kicker"><img class="product-inline-mark" src="{{ '/images/projects/stashdock/icon.svg' | relative_url }}" alt="">Independent product · Oct. 2026 – Present</p>
+  <p class="section-kicker"><img class="product-inline-mark" src="{{ '/images/projects/stashdock/icon.svg' | relative_url }}" alt="">Independent product · Sep. 2026 – Present</p>
   <p class="paper-meta">Creator &amp; full-stack developer · Product design, UI/UX, engineering, and release</p>
   <div class="paper-actions">
     <a class="brand-link" href="https://stashdock.app"><i class="fas fa-globe" aria-hidden="true"></i>Website</a>
     <a class="brand-link" href="https://github.com/StashDock/StashDock"><i class="fab fa-github" aria-hidden="true"></i>GitHub</a>
+    <a class="brand-link" href="https://stashdock.app/video"><i class="fas fa-film" aria-hidden="true"></i>Film</a>
     <a class="brand-link" href="https://stashdock.app/guide">Guide &amp; downloads</a>
     <a class="brand-link" href="{{ '/' | relative_url }}#products">Back to products</a>
   </div>
 
-  <p class="article-deck">StashDock is an AI-native, visualized personal context library for any AI. It brings scattered links, files, prompts, and rules into a visual collection of reference cards that users can browse, organize, and bring directly into AI conversations.</p>
+  <p class="article-deck">StashDock is an AI-native, visualized personal context library for any AI. It brings scattered links, files, and prompts into a visual collection of reference cards that users can browse, organize, and bring directly into AI conversations.</p>
 
   <figure class="article-hero">
-    <img src="{{ '/images/projects/stashdock/website.jpg' | relative_url }}" alt="StashDock product website showing its context library and desktop and ChatGPT entry points" width="1800" height="997">
+    <img src="{{ '/images/projects/stashdock/hero.png' | relative_url }}" alt="StashDock — Your context library for any AI" width="1920" height="1080">
     <figcaption>One personal context library to use across conversations and AI apps.</figcaption>
   </figure>
 

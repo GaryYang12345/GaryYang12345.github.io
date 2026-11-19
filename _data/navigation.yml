@@ -5,8 +5,11 @@ main:
   - title: "Research"
     url: "/#research"
 
-  - title: "Projects"
+  - title: "Products"
     url: "/#products"
+
+  - title: "Projects"
+    url: "/#projects"
 
   # - title: "Talks"
   #   url: "/#talks"

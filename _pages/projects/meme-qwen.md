@@ -9,7 +9,7 @@ title: "Meme-Qwen-7B-Instruct"
   <div class="paper-actions">
     <a class="brand-link brand-link--hf" href="https://huggingface.co/GaryYang123/Meme-Qwen-7B-Instruct"><img src="{{ '/images/hf-logo.png' | relative_url }}" alt="">Model</a>
     <a class="brand-link brand-link--hf" href="https://huggingface.co/datasets/GaryYang123/zh-meme-sft-8k"><img src="{{ '/images/hf-logo.png' | relative_url }}" alt="">Dataset</a>
-    <a class="brand-link" href="{{ '/' | relative_url }}#research">Back to projects</a>
+    <a class="brand-link" href="{{ '/' | relative_url }}#projects">Back to projects</a>
   </div>
 
   <p class="article-deck">Meme-Qwen is an experiment in teaching a compact language model the timing, references, and conversational rhythm of Chinese internet memes rather than simply adding meme vocabulary to otherwise generic responses.</p>

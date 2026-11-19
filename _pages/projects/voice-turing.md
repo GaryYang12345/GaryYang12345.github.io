@@ -8,7 +8,7 @@ title: "Voice Turing Test"
   <p class="paper-meta">WeChat Mini Program · public game, product, and ICLR 2026 data platform</p>
   <div class="paper-actions">
     <a class="brand-link" href="https://openreview.net/forum?id=Pv5l6cvfno">ICLR 2026 paper</a>
-    <a class="brand-link" href="{{ '/' | relative_url }}#development">Back to projects</a>
+    <a class="brand-link" href="{{ '/' | relative_url }}#projects">Back to projects</a>
   </div>
 
   <p class="article-deck">Voice Turing Test is a public WeChat Mini Program that asks players to listen to multi-speaker conversations and decide whether a responder is human or AI. It turns a research evaluation into a compact game that people can understand in seconds.</p>

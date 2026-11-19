@@ -297,6 +297,59 @@ a:focus-visible {
   width: 100%;
 }
 
+.publication-row__preview--cover {
+  aspect-ratio: 16 / 9;
+  height: auto;
+  padding: 0;
+}
+
+.product-heading {
+  align-items: start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+}
+
+.product-title {
+  flex: 1 1 23rem;
+  min-width: 0;
+}
+
+.product-title a {
+  align-items: start;
+  display: flex;
+  gap: 0.4rem;
+}
+
+.product-title img {
+  flex: 0 0 auto;
+  height: 0.9em;
+  margin: 0.25em 0 0;
+  width: 1.125em;
+}
+
+.product-badges {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  padding-top: 0.075rem;
+}
+
+.product-badges a {
+  display: inline-flex;
+  border-radius: 3px;
+}
+
+.product-badges img {
+  box-shadow: none !important;
+  display: block;
+  height: 20px;
+  margin: 0;
+  max-width: none;
+}
+
 .publication-row__preview--phones {
   gap: 0.28rem;
   padding: 0.3rem 0.45rem;
@@ -672,6 +725,10 @@ a:focus-visible {
   .publication-row__preview,
   .publication-row--compact .publication-row__preview {
     height: 88px;
+  }
+
+  .publication-row__preview--cover {
+    height: auto;
   }
 
   .resume-row {
